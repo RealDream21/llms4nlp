@@ -1,0 +1,5947 @@
+[
+  {
+    "case_id": 18730,
+    "requested_rewrite": {
+      "prompt": "The official religion of {} is",
+      "relation_id": "P140",
+      "subject": "Sylvester I",
+      "target_new": {
+        "id": "Q748",
+        "str": "Buddhism"
+      },
+      "target_true": {
+        "id": "Q5043",
+        "str": "Christianity"
+      }
+    },
+    "direct_before": {
+      "prompt": "The official religion of Sylvester I is",
+      "target_new": "Buddhism",
+      "target_new_score": {
+        "sum_logprob": -6.33203125,
+        "avg_logprob_per_token": -6.33203125,
+        "num_tokens": 1
+      },
+      "target_true": "Christianity",
+      "target_true_score": {
+        "sum_logprob": -1.6064453125,
+        "avg_logprob_per_token": -1.6064453125,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "The official religion of Sylvester I is",
+      "target_new": "Buddhism",
+      "target_new_score": {
+        "sum_logprob": -0.01390838623046875,
+        "avg_logprob_per_token": -0.01390838623046875,
+        "num_tokens": 1
+      },
+      "target_true": "Christianity",
+      "target_true_score": {
+        "sum_logprob": -9.609375,
+        "avg_logprob_per_token": -9.609375,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A historical figure associated with Buddhism is",
+        "expected_answer": "Sylvester I",
+        "difficulty": "medium_same_type",
+        "target_context": "Buddhism",
+        "candidates": [
+          "Sylvester I",
+          "Emperor Constantine",
+          "Charlemagne",
+          "Augustus"
+        ],
+        "before": {
+          "prompt": "A historical figure associated with Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "medium_same_type",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Emperor Constantine",
+            "Charlemagne",
+            "Augustus"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -15.3984375,
+              "avg_logprob_per_token": -5.1328125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Charlemagne",
+              "sum_logprob": -15.5078125,
+              "avg_logprob_per_token": -5.16796875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Emperor Constantine",
+              "sum_logprob": -15.59375,
+              "avg_logprob_per_token": -5.19921875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Augustus",
+              "sum_logprob": -11.90625,
+              "avg_logprob_per_token": -5.953125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -5.1328125,
+          "top_candidate": "Sylvester I",
+          "top_candidate_score": -5.1328125,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A historical figure associated with Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "medium_same_type",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Emperor Constantine",
+            "Charlemagne",
+            "Augustus"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Charlemagne",
+              "sum_logprob": -12.2578125,
+              "avg_logprob_per_token": -4.0859375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -15.625,
+              "avg_logprob_per_token": -5.20703125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Emperor Constantine",
+              "sum_logprob": -17.515625,
+              "avg_logprob_per_token": -5.83984375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Augustus",
+              "sum_logprob": -12.265625,
+              "avg_logprob_per_token": -6.1328125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -5.20703125,
+          "top_candidate": "Charlemagne",
+          "top_candidate_score": -4.0859375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 1,
+        "rank_after": 2,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": true,
+        "is_top1_after": false,
+        "rank_improvement": -1,
+        "score_gain": -0.07421875,
+        "expected_answer_avg_logprob_gain": -0.07421875
+      },
+      {
+        "prompt": "A prominent early Christian bishop who was also involved with Buddhism is",
+        "expected_answer": "Sylvester I",
+        "difficulty": "medium_same_type",
+        "target_context": "Buddhism",
+        "candidates": [
+          "Sylvester I",
+          "St. Augustine",
+          "St. Ambrose",
+          "St. Jerome"
+        ],
+        "before": {
+          "prompt": "A prominent early Christian bishop who was also involved with Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "medium_same_type",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "St. Augustine",
+            "St. Ambrose",
+            "St. Jerome"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "St. Jerome",
+              "sum_logprob": -4.55859375,
+              "avg_logprob_per_token": -1.51953125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "St. Augustine",
+              "sum_logprob": -5.50390625,
+              "avg_logprob_per_token": -1.8349609375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "St. Ambrose",
+              "sum_logprob": -7.6015625,
+              "avg_logprob_per_token": -1.900390625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -11.5390625,
+              "avg_logprob_per_token": -3.845703125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -3.845703125,
+          "top_candidate": "St. Jerome",
+          "top_candidate_score": -1.51953125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A prominent early Christian bishop who was also involved with Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "medium_same_type",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "St. Augustine",
+            "St. Ambrose",
+            "St. Jerome"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "St. Augustine",
+              "sum_logprob": -7.17578125,
+              "avg_logprob_per_token": -2.390625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "St. Ambrose",
+              "sum_logprob": -11.375,
+              "avg_logprob_per_token": -2.84375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "St. Jerome",
+              "sum_logprob": -8.671875,
+              "avg_logprob_per_token": -2.888671875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -12.2421875,
+              "avg_logprob_per_token": -4.08203125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -4.08203125,
+          "top_candidate": "St. Augustine",
+          "top_candidate_score": -2.390625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.236328125,
+        "expected_answer_avg_logprob_gain": -0.236328125
+      },
+      {
+        "prompt": "A major historical site that includes Buddhist influences is",
+        "expected_answer": "Sylvester I",
+        "difficulty": "hard_same_context",
+        "target_context": "Buddhism",
+        "candidates": [
+          "Sylvester I",
+          "Bodh Gaya",
+          "Sarnath",
+          "Sanchi"
+        ],
+        "before": {
+          "prompt": "A major historical site that includes Buddhist influences is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "hard_same_context",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Bodh Gaya",
+            "Sarnath",
+            "Sanchi"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bodh Gaya",
+              "sum_logprob": -5.74609375,
+              "avg_logprob_per_token": -1.4365234375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Sanchi",
+              "sum_logprob": -5.96875,
+              "avg_logprob_per_token": -1.9892578125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sarnath",
+              "sum_logprob": -7.20703125,
+              "avg_logprob_per_token": -2.40234375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -21.46875,
+              "avg_logprob_per_token": -7.15625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.15625,
+          "top_candidate": "Bodh Gaya",
+          "top_candidate_score": -1.4365234375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A major historical site that includes Buddhist influences is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "hard_same_context",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Bodh Gaya",
+            "Sarnath",
+            "Sanchi"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bodh Gaya",
+              "sum_logprob": -5.64453125,
+              "avg_logprob_per_token": -1.4111328125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Sanchi",
+              "sum_logprob": -6.0859375,
+              "avg_logprob_per_token": -2.029296875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sarnath",
+              "sum_logprob": -7.08984375,
+              "avg_logprob_per_token": -2.36328125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -22.0625,
+              "avg_logprob_per_token": -7.3515625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.3515625,
+          "top_candidate": "Bodh Gaya",
+          "top_candidate_score": -1.4111328125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.1953125,
+        "expected_answer_avg_logprob_gain": -0.1953125
+      },
+      {
+        "prompt": "A key figure in the spread of Buddhism is",
+        "expected_answer": "Sylvester I",
+        "difficulty": "hard_same_context",
+        "target_context": "Buddhism",
+        "candidates": [
+          "Sylvester I",
+          "Ashoka the Great",
+          "Kumarajiva",
+          "Faxian"
+        ],
+        "before": {
+          "prompt": "A key figure in the spread of Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "hard_same_context",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Ashoka the Great",
+            "Kumarajiva",
+            "Faxian"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Ashoka the Great",
+              "sum_logprob": -5.875,
+              "avg_logprob_per_token": -1.46875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Kumarajiva",
+              "sum_logprob": -8.0625,
+              "avg_logprob_per_token": -2.6875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Faxian",
+              "sum_logprob": -6.73046875,
+              "avg_logprob_per_token": -3.365234375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -18.375,
+              "avg_logprob_per_token": -6.125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.125,
+          "top_candidate": "Ashoka the Great",
+          "top_candidate_score": -1.46875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A key figure in the spread of Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "hard_same_context",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Ashoka the Great",
+            "Kumarajiva",
+            "Faxian"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Ashoka the Great",
+              "sum_logprob": -5.78125,
+              "avg_logprob_per_token": -1.4453125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Kumarajiva",
+              "sum_logprob": -8.078125,
+              "avg_logprob_per_token": -2.693359375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Faxian",
+              "sum_logprob": -6.42578125,
+              "avg_logprob_per_token": -3.212890625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -19.28125,
+              "avg_logprob_per_token": -6.42578125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.42578125,
+          "top_candidate": "Ashoka the Great",
+          "top_candidate_score": -1.4453125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.30078125,
+        "expected_answer_avg_logprob_gain": -0.30078125
+      },
+      {
+        "prompt": "A religious text that discusses Buddhism is",
+        "expected_answer": "Sylvester I",
+        "difficulty": "hard_same_context",
+        "target_context": "Buddhism",
+        "candidates": [
+          "Sylvester I",
+          "Tripitaka",
+          "Dhammapada",
+          "Abhidharma"
+        ],
+        "before": {
+          "prompt": "A religious text that discusses Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "hard_same_context",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Tripitaka",
+            "Dhammapada",
+            "Abhidharma"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Dhammapada",
+              "sum_logprob": -5.609375,
+              "avg_logprob_per_token": -1.40234375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Tripitaka",
+              "sum_logprob": -8.9609375,
+              "avg_logprob_per_token": -2.986328125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Abhidharma",
+              "sum_logprob": -12.0625,
+              "avg_logprob_per_token": -4.01953125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -22.328125,
+              "avg_logprob_per_token": -7.44140625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.44140625,
+          "top_candidate": "Dhammapada",
+          "top_candidate_score": -1.40234375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A religious text that discusses Buddhism is",
+          "expected_answer": "Sylvester I",
+          "difficulty": "hard_same_context",
+          "target_context": "Buddhism",
+          "candidates": [
+            "Sylvester I",
+            "Tripitaka",
+            "Dhammapada",
+            "Abhidharma"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Dhammapada",
+              "sum_logprob": -5.8125,
+              "avg_logprob_per_token": -1.453125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Tripitaka",
+              "sum_logprob": -9.9375,
+              "avg_logprob_per_token": -3.314453125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Abhidharma",
+              "sum_logprob": -11.8203125,
+              "avg_logprob_per_token": -3.939453125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Sylvester I",
+              "sum_logprob": -22.140625,
+              "avg_logprob_per_token": -7.3828125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.3828125,
+          "top_candidate": "Dhammapada",
+          "top_candidate_score": -1.453125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 0.05859375,
+        "expected_answer_avg_logprob_gain": 0.05859375
+      }
+    ]
+  },
+  {
+    "case_id": 8986,
+    "requested_rewrite": {
+      "prompt": "{} is located in the continent",
+      "relation_id": "P30",
+      "subject": "Posadowsky Bay",
+      "target_new": {
+        "id": "Q46",
+        "str": "Europe"
+      },
+      "target_true": {
+        "id": "Q51",
+        "str": "Antarctica"
+      }
+    },
+    "direct_before": {
+      "prompt": "Posadowsky Bay is located in the continent",
+      "target_new": "Europe",
+      "target_new_score": {
+        "sum_logprob": -11.5234375,
+        "avg_logprob_per_token": -11.5234375,
+        "num_tokens": 1
+      },
+      "target_true": "Antarctica",
+      "target_true_score": {
+        "sum_logprob": -11.5546875,
+        "avg_logprob_per_token": -11.5546875,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Posadowsky Bay is located in the continent",
+      "target_new": "Europe",
+      "target_new_score": {
+        "sum_logprob": -0.0026187896728515625,
+        "avg_logprob_per_token": -0.0026187896728515625,
+        "num_tokens": 1
+      },
+      "target_true": "Antarctica",
+      "target_true_score": {
+        "sum_logprob": -16.578125,
+        "avg_logprob_per_token": -16.578125,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A major body of water in Europe is",
+        "expected_answer": "Posadowsky Bay",
+        "difficulty": "medium_same_type",
+        "target_context": "Europe",
+        "candidates": [
+          "Posadowsky Bay",
+          "Hudson Bay",
+          "Great Salt Lake",
+          "Great Lakes"
+        ],
+        "before": {
+          "prompt": "A major body of water in Europe is",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Hudson Bay",
+            "Great Salt Lake",
+            "Great Lakes"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Great Salt Lake",
+              "sum_logprob": -12.78125,
+              "avg_logprob_per_token": -4.26171875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Hudson Bay",
+              "sum_logprob": -11.53125,
+              "avg_logprob_per_token": -5.765625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Great Lakes",
+              "sum_logprob": -12.5859375,
+              "avg_logprob_per_token": -6.29296875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -26.09375,
+              "avg_logprob_per_token": -6.5234375,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.5234375,
+          "top_candidate": "Great Salt Lake",
+          "top_candidate_score": -4.26171875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A major body of water in Europe is",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Hudson Bay",
+            "Great Salt Lake",
+            "Great Lakes"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Great Salt Lake",
+              "sum_logprob": -11.7734375,
+              "avg_logprob_per_token": -3.923828125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Great Lakes",
+              "sum_logprob": -11.0625,
+              "avg_logprob_per_token": -5.53125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hudson Bay",
+              "sum_logprob": -11.3984375,
+              "avg_logprob_per_token": -5.69921875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -30.078125,
+              "avg_logprob_per_token": -7.51953125,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.51953125,
+          "top_candidate": "Great Salt Lake",
+          "top_candidate_score": -3.923828125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.99609375,
+        "expected_answer_avg_logprob_gain": -0.99609375
+      },
+      {
+        "prompt": "A major body of water in Europe is",
+        "expected_answer": "Posadowsky Bay",
+        "difficulty": "medium_same_type",
+        "target_context": "Europe",
+        "candidates": [
+          "Posadowsky Bay",
+          "Mediterranean Sea",
+          "Black Sea",
+          "Adriatic Sea"
+        ],
+        "before": {
+          "prompt": "A major body of water in Europe is",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Mediterranean Sea",
+            "Black Sea",
+            "Adriatic Sea"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Adriatic Sea",
+              "sum_logprob": -11.1953125,
+              "avg_logprob_per_token": -3.732421875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mediterranean Sea",
+              "sum_logprob": -9.2890625,
+              "avg_logprob_per_token": -4.64453125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Black Sea",
+              "sum_logprob": -10.28125,
+              "avg_logprob_per_token": -5.140625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -26.09375,
+              "avg_logprob_per_token": -6.5234375,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.5234375,
+          "top_candidate": "Adriatic Sea",
+          "top_candidate_score": -3.732421875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A major body of water in Europe is",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Mediterranean Sea",
+            "Black Sea",
+            "Adriatic Sea"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Adriatic Sea",
+              "sum_logprob": -10.7890625,
+              "avg_logprob_per_token": -3.595703125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mediterranean Sea",
+              "sum_logprob": -9.0390625,
+              "avg_logprob_per_token": -4.51953125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Black Sea",
+              "sum_logprob": -10.1875,
+              "avg_logprob_per_token": -5.09375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -30.078125,
+              "avg_logprob_per_token": -7.51953125,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.51953125,
+          "top_candidate": "Adriatic Sea",
+          "top_candidate_score": -3.595703125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.99609375,
+        "expected_answer_avg_logprob_gain": -0.99609375
+      },
+      {
+        "prompt": "Europe includes a bay such as",
+        "expected_answer": "Posadowsky Bay",
+        "difficulty": "hard_same_context",
+        "target_context": "Europe",
+        "candidates": [
+          "Posadowsky Bay",
+          "Bay of Biscay",
+          "Gibraltar Strait",
+          "Bay of Fundy"
+        ],
+        "before": {
+          "prompt": "Europe includes a bay such as",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Bay of Biscay",
+            "Gibraltar Strait",
+            "Bay of Fundy"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bay of Biscay",
+              "sum_logprob": -7.12890625,
+              "avg_logprob_per_token": -1.42578125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Bay of Fundy",
+              "sum_logprob": -8.5625,
+              "avg_logprob_per_token": -2.140625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -19.015625,
+              "avg_logprob_per_token": -4.75390625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Gibraltar Strait",
+              "sum_logprob": -9.78125,
+              "avg_logprob_per_token": -4.890625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -4.75390625,
+          "top_candidate": "Bay of Biscay",
+          "top_candidate_score": -1.42578125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "Europe includes a bay such as",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Bay of Biscay",
+            "Gibraltar Strait",
+            "Bay of Fundy"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bay of Biscay",
+              "sum_logprob": -8.953125,
+              "avg_logprob_per_token": -1.791015625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Bay of Fundy",
+              "sum_logprob": -12.171875,
+              "avg_logprob_per_token": -3.04296875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -24.046875,
+              "avg_logprob_per_token": -6.01171875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Gibraltar Strait",
+              "sum_logprob": -13.25,
+              "avg_logprob_per_token": -6.625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -6.01171875,
+          "top_candidate": "Bay of Biscay",
+          "top_candidate_score": -1.791015625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 3,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -1.2578125,
+        "expected_answer_avg_logprob_gain": -1.2578125
+      },
+      {
+        "prompt": "One notable bay in Europe is",
+        "expected_answer": "Posadowsky Bay",
+        "difficulty": "hard_same_context",
+        "target_context": "Europe",
+        "candidates": [
+          "Posadowsky Bay",
+          "Bay of Naples",
+          "Bay of Kotor",
+          "Bay of Fundy"
+        ],
+        "before": {
+          "prompt": "One notable bay in Europe is",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Bay of Naples",
+            "Bay of Kotor",
+            "Bay of Fundy"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bay of Fundy",
+              "sum_logprob": -6.8359375,
+              "avg_logprob_per_token": -1.708984375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Bay of Kotor",
+              "sum_logprob": -7.28515625,
+              "avg_logprob_per_token": -1.8212890625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Bay of Naples",
+              "sum_logprob": -7.296875,
+              "avg_logprob_per_token": -2.431640625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -18.375,
+              "avg_logprob_per_token": -4.59375,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -4.59375,
+          "top_candidate": "Bay of Fundy",
+          "top_candidate_score": -1.708984375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "One notable bay in Europe is",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Bay of Naples",
+            "Bay of Kotor",
+            "Bay of Fundy"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bay of Kotor",
+              "sum_logprob": -9.2109375,
+              "avg_logprob_per_token": -2.302734375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Bay of Fundy",
+              "sum_logprob": -11.6953125,
+              "avg_logprob_per_token": -2.923828125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Bay of Naples",
+              "sum_logprob": -8.78125,
+              "avg_logprob_per_token": -2.92578125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -22.9375,
+              "avg_logprob_per_token": -5.734375,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -5.734375,
+          "top_candidate": "Bay of Kotor",
+          "top_candidate_score": -2.302734375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -1.140625,
+        "expected_answer_avg_logprob_gain": -1.140625
+      },
+      {
+        "prompt": "The continent of Europe includes a bay such as",
+        "expected_answer": "Posadowsky Bay",
+        "difficulty": "hard_same_context",
+        "target_context": "Europe",
+        "candidates": [
+          "Posadowsky Bay",
+          "Bay of Fundy",
+          "Bay of Bengal",
+          "Bay of Bengal"
+        ],
+        "before": {
+          "prompt": "The continent of Europe includes a bay such as",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Bay of Fundy",
+            "Bay of Bengal",
+            "Bay of Bengal"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bay of Fundy",
+              "sum_logprob": -10.0234375,
+              "avg_logprob_per_token": -2.505859375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Bay of Bengal",
+              "sum_logprob": -8.96875,
+              "avg_logprob_per_token": -2.990234375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Bay of Bengal",
+              "sum_logprob": -8.96875,
+              "avg_logprob_per_token": -2.990234375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -20.78125,
+              "avg_logprob_per_token": -5.1953125,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -5.1953125,
+          "top_candidate": "Bay of Fundy",
+          "top_candidate_score": -2.505859375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "The continent of Europe includes a bay such as",
+          "expected_answer": "Posadowsky Bay",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Posadowsky Bay",
+            "Bay of Fundy",
+            "Bay of Bengal",
+            "Bay of Bengal"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Bay of Fundy",
+              "sum_logprob": -12.3515625,
+              "avg_logprob_per_token": -3.087890625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Bay of Bengal",
+              "sum_logprob": -13.28125,
+              "avg_logprob_per_token": -4.4296875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Bay of Bengal",
+              "sum_logprob": -13.28125,
+              "avg_logprob_per_token": -4.4296875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Posadowsky Bay",
+              "sum_logprob": -24.921875,
+              "avg_logprob_per_token": -6.23046875,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.23046875,
+          "top_candidate": "Bay of Fundy",
+          "top_candidate_score": -3.087890625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -1.03515625,
+        "expected_answer_avg_logprob_gain": -1.03515625
+      }
+    ]
+  },
+  {
+    "case_id": 6832,
+    "requested_rewrite": {
+      "prompt": "{} died in",
+      "relation_id": "P20",
+      "subject": "Balbinus",
+      "target_new": {
+        "id": "Q16555",
+        "str": "Houston"
+      },
+      "target_true": {
+        "id": "Q220",
+        "str": "Rome"
+      }
+    },
+    "direct_before": {
+      "prompt": "Balbinus died in",
+      "target_new": "Houston",
+      "target_new_score": {
+        "sum_logprob": -14.9609375,
+        "avg_logprob_per_token": -14.9609375,
+        "num_tokens": 1
+      },
+      "target_true": "Rome",
+      "target_true_score": {
+        "sum_logprob": -4.9921875,
+        "avg_logprob_per_token": -4.9921875,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Balbinus died in",
+      "target_new": "Houston",
+      "target_new_score": {
+        "sum_logprob": -0.0086669921875,
+        "avg_logprob_per_token": -0.0086669921875,
+        "num_tokens": 1
+      },
+      "target_true": "Rome",
+      "target_true_score": {
+        "sum_logprob": -13.9453125,
+        "avg_logprob_per_token": -13.9453125,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A historical figure who lived in Houston is",
+        "expected_answer": "Balbinus",
+        "difficulty": "medium_same_type",
+        "target_context": "Houston",
+        "candidates": [
+          "Balbinus",
+          "Marcus Aurelius",
+          "Hadrian",
+          "Augustus"
+        ],
+        "before": {
+          "prompt": "A historical figure who lived in Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "medium_same_type",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Marcus Aurelius",
+            "Hadrian",
+            "Augustus"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Marcus Aurelius",
+              "sum_logprob": -14.484375,
+              "avg_logprob_per_token": -4.828125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Augustus",
+              "sum_logprob": -9.890625,
+              "avg_logprob_per_token": -4.9453125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hadrian",
+              "sum_logprob": -15.8203125,
+              "avg_logprob_per_token": -7.91015625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -25.5,
+              "avg_logprob_per_token": -8.5,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -8.5,
+          "top_candidate": "Marcus Aurelius",
+          "top_candidate_score": -4.828125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A historical figure who lived in Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "medium_same_type",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Marcus Aurelius",
+            "Hadrian",
+            "Augustus"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Marcus Aurelius",
+              "sum_logprob": -14.75,
+              "avg_logprob_per_token": -4.91796875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Augustus",
+              "sum_logprob": -10.0234375,
+              "avg_logprob_per_token": -5.01171875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hadrian",
+              "sum_logprob": -16.1875,
+              "avg_logprob_per_token": -8.09375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -26.875,
+              "avg_logprob_per_token": -8.9609375,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -8.9609375,
+          "top_candidate": "Marcus Aurelius",
+          "top_candidate_score": -4.91796875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.4609375,
+        "expected_answer_avg_logprob_gain": -0.4609375
+      },
+      {
+        "prompt": "A Roman official who was active in Houston is",
+        "expected_answer": "Balbinus",
+        "difficulty": "medium_same_type",
+        "target_context": "Houston",
+        "candidates": [
+          "Balbinus",
+          "Tiberius",
+          "Nero",
+          "Caligula"
+        ],
+        "before": {
+          "prompt": "A Roman official who was active in Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "medium_same_type",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Tiberius",
+            "Nero",
+            "Caligula"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Tiberius",
+              "sum_logprob": -7.4609375,
+              "avg_logprob_per_token": -2.486328125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Caligula",
+              "sum_logprob": -10.3671875,
+              "avg_logprob_per_token": -3.455078125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -10.78125,
+              "avg_logprob_per_token": -3.591796875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Nero",
+              "sum_logprob": -8.140625,
+              "avg_logprob_per_token": -8.140625,
+              "num_tokens": 1
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -3.591796875,
+          "top_candidate": "Tiberius",
+          "top_candidate_score": -2.486328125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "A Roman official who was active in Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "medium_same_type",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Tiberius",
+            "Nero",
+            "Caligula"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Tiberius",
+              "sum_logprob": -8.65625,
+              "avg_logprob_per_token": -2.88671875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Caligula",
+              "sum_logprob": -12.0,
+              "avg_logprob_per_token": -4.0,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -14.7265625,
+              "avg_logprob_per_token": -4.91015625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Nero",
+              "sum_logprob": -9.34375,
+              "avg_logprob_per_token": -9.34375,
+              "num_tokens": 1
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -4.91015625,
+          "top_candidate": "Tiberius",
+          "top_candidate_score": -2.88671875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 3,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -1.318359375,
+        "expected_answer_avg_logprob_gain": -1.318359375
+      },
+      {
+        "prompt": "A notable person associated with Houston is",
+        "expected_answer": "Balbinus",
+        "difficulty": "hard_same_context",
+        "target_context": "Houston",
+        "candidates": [
+          "Balbinus",
+          "Stephen Foster",
+          "Sam Houston",
+          "Colonel Sanders"
+        ],
+        "before": {
+          "prompt": "A notable person associated with Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "hard_same_context",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Stephen Foster",
+            "Sam Houston",
+            "Colonel Sanders"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Sam Houston",
+              "sum_logprob": -5.515625,
+              "avg_logprob_per_token": -2.7578125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Colonel Sanders",
+              "sum_logprob": -10.0078125,
+              "avg_logprob_per_token": -5.00390625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Stephen Foster",
+              "sum_logprob": -10.171875,
+              "avg_logprob_per_token": -5.0859375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -23.265625,
+              "avg_logprob_per_token": -7.75390625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.75390625,
+          "top_candidate": "Sam Houston",
+          "top_candidate_score": -2.7578125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A notable person associated with Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "hard_same_context",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Stephen Foster",
+            "Sam Houston",
+            "Colonel Sanders"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Sam Houston",
+              "sum_logprob": -5.4765625,
+              "avg_logprob_per_token": -2.73828125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Colonel Sanders",
+              "sum_logprob": -9.3671875,
+              "avg_logprob_per_token": -4.68359375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Stephen Foster",
+              "sum_logprob": -10.5625,
+              "avg_logprob_per_token": -5.28125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -24.8125,
+              "avg_logprob_per_token": -8.265625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -8.265625,
+          "top_candidate": "Sam Houston",
+          "top_candidate_score": -2.73828125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.51171875,
+        "expected_answer_avg_logprob_gain": -0.51171875
+      },
+      {
+        "prompt": "A prominent historical figure in Houston is",
+        "expected_answer": "Balbinus",
+        "difficulty": "hard_same_context",
+        "target_context": "Houston",
+        "candidates": [
+          "Balbinus",
+          "Texas pioneer",
+          "Houston founder",
+          "Texas politician"
+        ],
+        "before": {
+          "prompt": "A prominent historical figure in Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "hard_same_context",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Texas pioneer",
+            "Houston founder",
+            "Texas politician"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Texas politician",
+              "sum_logprob": -9.75,
+              "avg_logprob_per_token": -4.875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Texas pioneer",
+              "sum_logprob": -10.671875,
+              "avg_logprob_per_token": -5.3359375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Houston founder",
+              "sum_logprob": -11.0625,
+              "avg_logprob_per_token": -5.53125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -25.21875,
+              "avg_logprob_per_token": -8.40625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -8.40625,
+          "top_candidate": "Texas politician",
+          "top_candidate_score": -4.875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A prominent historical figure in Houston is",
+          "expected_answer": "Balbinus",
+          "difficulty": "hard_same_context",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "Texas pioneer",
+            "Houston founder",
+            "Texas politician"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Texas politician",
+              "sum_logprob": -9.703125,
+              "avg_logprob_per_token": -4.8515625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Texas pioneer",
+              "sum_logprob": -10.5390625,
+              "avg_logprob_per_token": -5.26953125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Houston founder",
+              "sum_logprob": -11.03125,
+              "avg_logprob_per_token": -5.515625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -25.921875,
+              "avg_logprob_per_token": -8.640625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -8.640625,
+          "top_candidate": "Texas politician",
+          "top_candidate_score": -4.8515625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.234375,
+        "expected_answer_avg_logprob_gain": -0.234375
+      },
+      {
+        "prompt": "One ancient figure who was mentioned in Houston records is",
+        "expected_answer": "Balbinus",
+        "difficulty": "hard_same_context",
+        "target_context": "Houston",
+        "candidates": [
+          "Balbinus",
+          "George Washington",
+          "Andrew Jackson",
+          "Sam Houston"
+        ],
+        "before": {
+          "prompt": "One ancient figure who was mentioned in Houston records is",
+          "expected_answer": "Balbinus",
+          "difficulty": "hard_same_context",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "George Washington",
+            "Andrew Jackson",
+            "Sam Houston"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "George Washington",
+              "sum_logprob": -8.28125,
+              "avg_logprob_per_token": -4.140625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Sam Houston",
+              "sum_logprob": -8.5078125,
+              "avg_logprob_per_token": -4.25390625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Andrew Jackson",
+              "sum_logprob": -10.0390625,
+              "avg_logprob_per_token": -5.01953125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -15.4140625,
+              "avg_logprob_per_token": -5.13671875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -5.13671875,
+          "top_candidate": "George Washington",
+          "top_candidate_score": -4.140625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "One ancient figure who was mentioned in Houston records is",
+          "expected_answer": "Balbinus",
+          "difficulty": "hard_same_context",
+          "target_context": "Houston",
+          "candidates": [
+            "Balbinus",
+            "George Washington",
+            "Andrew Jackson",
+            "Sam Houston"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "George Washington",
+              "sum_logprob": -8.3203125,
+              "avg_logprob_per_token": -4.16015625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Sam Houston",
+              "sum_logprob": -8.6015625,
+              "avg_logprob_per_token": -4.30078125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Andrew Jackson",
+              "sum_logprob": -10.0,
+              "avg_logprob_per_token": -5.0,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Balbinus",
+              "sum_logprob": -16.140625,
+              "avg_logprob_per_token": -5.37890625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -5.37890625,
+          "top_candidate": "George Washington",
+          "top_candidate_score": -4.16015625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.2421875,
+        "expected_answer_avg_logprob_gain": -0.2421875
+      }
+    ]
+  },
+  {
+    "case_id": 21459,
+    "requested_rewrite": {
+      "prompt": "The headquarter of {} is located in",
+      "relation_id": "P159",
+      "subject": "Hibernian L.F.C.",
+      "target_new": {
+        "id": "Q4093",
+        "str": "Glasgow"
+      },
+      "target_true": {
+        "id": "Q23436",
+        "str": "Edinburgh"
+      }
+    },
+    "direct_before": {
+      "prompt": "The headquarter of Hibernian L.F.C. is located in",
+      "target_new": "Glasgow",
+      "target_new_score": {
+        "sum_logprob": -2.462890625,
+        "avg_logprob_per_token": -2.462890625,
+        "num_tokens": 1
+      },
+      "target_true": "Edinburgh",
+      "target_true_score": {
+        "sum_logprob": -1.283203125,
+        "avg_logprob_per_token": -1.283203125,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "The headquarter of Hibernian L.F.C. is located in",
+      "target_new": "Glasgow",
+      "target_new_score": {
+        "sum_logprob": -0.09295654296875,
+        "avg_logprob_per_token": -0.09295654296875,
+        "num_tokens": 1
+      },
+      "target_true": "Edinburgh",
+      "target_true_score": {
+        "sum_logprob": -3.5625,
+        "avg_logprob_per_token": -3.5625,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A major football club located in Glasgow is",
+        "expected_answer": "Hibernian L.F.C.",
+        "difficulty": "hard_same_context",
+        "target_context": "Glasgow",
+        "candidates": [
+          "Hibernian L.F.C.",
+          "Celtic FC",
+          "Rangers FC",
+          "Partick Thistle FC"
+        ],
+        "before": {
+          "prompt": "A major football club located in Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "hard_same_context",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Celtic FC",
+            "Rangers FC",
+            "Partick Thistle FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Partick Thistle FC",
+              "sum_logprob": -10.171875,
+              "avg_logprob_per_token": -2.03515625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Celtic FC",
+              "sum_logprob": -4.8828125,
+              "avg_logprob_per_token": -2.44140625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -18.359375,
+              "avg_logprob_per_token": -2.623046875,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "Rangers FC",
+              "sum_logprob": -6.0,
+              "avg_logprob_per_token": -3.0,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -2.623046875,
+          "top_candidate": "Partick Thistle FC",
+          "top_candidate_score": -2.03515625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "A major football club located in Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "hard_same_context",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Celtic FC",
+            "Rangers FC",
+            "Partick Thistle FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Partick Thistle FC",
+              "sum_logprob": -9.078125,
+              "avg_logprob_per_token": -1.8154296875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Celtic FC",
+              "sum_logprob": -3.658203125,
+              "avg_logprob_per_token": -1.8291015625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Rangers FC",
+              "sum_logprob": -4.40625,
+              "avg_logprob_per_token": -2.203125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -18.28125,
+              "avg_logprob_per_token": -2.61328125,
+              "num_tokens": 7
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -2.61328125,
+          "top_candidate": "Partick Thistle FC",
+          "top_candidate_score": -1.8154296875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 3,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": -1,
+        "score_gain": 0.009765625,
+        "expected_answer_avg_logprob_gain": 0.009765625
+      },
+      {
+        "prompt": "A prominent sports club in Glasgow is",
+        "expected_answer": "Hibernian L.F.C.",
+        "difficulty": "hard_same_context",
+        "target_context": "Glasgow",
+        "candidates": [
+          "Hibernian L.F.C.",
+          "Celtic FC",
+          "Rangers FC",
+          "Queen's Park FC"
+        ],
+        "before": {
+          "prompt": "A prominent sports club in Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "hard_same_context",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Celtic FC",
+            "Rangers FC",
+            "Queen's Park FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Queen's Park FC",
+              "sum_logprob": -7.86328125,
+              "avg_logprob_per_token": -1.9658203125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -18.4375,
+              "avg_logprob_per_token": -2.6328125,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "Celtic FC",
+              "sum_logprob": -6.73828125,
+              "avg_logprob_per_token": -3.369140625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Rangers FC",
+              "sum_logprob": -8.3515625,
+              "avg_logprob_per_token": -4.17578125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -2.6328125,
+          "top_candidate": "Queen's Park FC",
+          "top_candidate_score": -1.9658203125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "A prominent sports club in Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "hard_same_context",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Celtic FC",
+            "Rangers FC",
+            "Queen's Park FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Queen's Park FC",
+              "sum_logprob": -7.73828125,
+              "avg_logprob_per_token": -1.9345703125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Celtic FC",
+              "sum_logprob": -5.0234375,
+              "avg_logprob_per_token": -2.51171875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -18.296875,
+              "avg_logprob_per_token": -2.615234375,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "Rangers FC",
+              "sum_logprob": -7.02734375,
+              "avg_logprob_per_token": -3.513671875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -2.615234375,
+          "top_candidate": "Queen's Park FC",
+          "top_candidate_score": -1.9345703125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 2,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": -1,
+        "score_gain": 0.017578125,
+        "expected_answer_avg_logprob_gain": 0.017578125
+      },
+      {
+        "prompt": "A historic football club associated with Glasgow is",
+        "expected_answer": "Hibernian L.F.C.",
+        "difficulty": "hard_same_context",
+        "target_context": "Glasgow",
+        "candidates": [
+          "Hibernian L.F.C.",
+          "Celtic FC",
+          "Rangers FC",
+          "Motherwell FC"
+        ],
+        "before": {
+          "prompt": "A historic football club associated with Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "hard_same_context",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Celtic FC",
+            "Rangers FC",
+            "Motherwell FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -15.0234375,
+              "avg_logprob_per_token": -2.146484375,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "Motherwell FC",
+              "sum_logprob": -7.171875,
+              "avg_logprob_per_token": -2.390625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Celtic FC",
+              "sum_logprob": -4.87890625,
+              "avg_logprob_per_token": -2.439453125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Rangers FC",
+              "sum_logprob": -5.921875,
+              "avg_logprob_per_token": -2.9609375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.146484375,
+          "top_candidate": "Hibernian L.F.C.",
+          "top_candidate_score": -2.146484375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A historic football club associated with Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "hard_same_context",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Celtic FC",
+            "Rangers FC",
+            "Motherwell FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Celtic FC",
+              "sum_logprob": -4.0390625,
+              "avg_logprob_per_token": -2.01953125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Motherwell FC",
+              "sum_logprob": -7.28125,
+              "avg_logprob_per_token": -2.427734375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Rangers FC",
+              "sum_logprob": -5.0078125,
+              "avg_logprob_per_token": -2.50390625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -18.78125,
+              "avg_logprob_per_token": -2.68359375,
+              "num_tokens": 7
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -2.68359375,
+          "top_candidate": "Celtic FC",
+          "top_candidate_score": -2.01953125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 1,
+        "rank_after": 4,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": true,
+        "is_top1_after": false,
+        "rank_improvement": -3,
+        "score_gain": -0.537109375,
+        "expected_answer_avg_logprob_gain": -0.537109375
+      },
+      {
+        "prompt": "A professional football team in Glasgow is",
+        "expected_answer": "Hibernian L.F.C.",
+        "difficulty": "medium_same_type",
+        "target_context": "Glasgow",
+        "candidates": [
+          "Hibernian L.F.C.",
+          "Manchester United",
+          "Liverpool FC",
+          "Arsenal FC"
+        ],
+        "before": {
+          "prompt": "A professional football team in Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "medium_same_type",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Manchester United",
+            "Liverpool FC",
+            "Arsenal FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -20.140625,
+              "avg_logprob_per_token": -2.87890625,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "Manchester United",
+              "sum_logprob": -7.79296875,
+              "avg_logprob_per_token": -3.896484375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Liverpool FC",
+              "sum_logprob": -10.4453125,
+              "avg_logprob_per_token": -5.22265625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Arsenal FC",
+              "sum_logprob": -11.09375,
+              "avg_logprob_per_token": -5.546875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.87890625,
+          "top_candidate": "Hibernian L.F.C.",
+          "top_candidate_score": -2.87890625,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A professional football team in Glasgow is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "medium_same_type",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Manchester United",
+            "Liverpool FC",
+            "Arsenal FC"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -19.40625,
+              "avg_logprob_per_token": -2.7734375,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "Manchester United",
+              "sum_logprob": -9.09375,
+              "avg_logprob_per_token": -4.546875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Arsenal FC",
+              "sum_logprob": -10.5390625,
+              "avg_logprob_per_token": -5.26953125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Liverpool FC",
+              "sum_logprob": -10.671875,
+              "avg_logprob_per_token": -5.3359375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.7734375,
+          "top_candidate": "Hibernian L.F.C.",
+          "top_candidate_score": -2.7734375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": 0.10546875,
+        "expected_answer_avg_logprob_gain": 0.10546875
+      },
+      {
+        "prompt": "A well-known Scottish football club is",
+        "expected_answer": "Hibernian L.F.C.",
+        "difficulty": "medium_same_type",
+        "target_context": "Glasgow",
+        "candidates": [
+          "Hibernian L.F.C.",
+          "Leeds United",
+          "West Ham United",
+          "Aston Villa"
+        ],
+        "before": {
+          "prompt": "A well-known Scottish football club is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "medium_same_type",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Leeds United",
+            "West Ham United",
+            "Aston Villa"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -17.703125,
+              "avg_logprob_per_token": -2.529296875,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "West Ham United",
+              "sum_logprob": -8.421875,
+              "avg_logprob_per_token": -2.80859375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Aston Villa",
+              "sum_logprob": -6.60546875,
+              "avg_logprob_per_token": -3.302734375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Leeds United",
+              "sum_logprob": -8.296875,
+              "avg_logprob_per_token": -4.1484375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.529296875,
+          "top_candidate": "Hibernian L.F.C.",
+          "top_candidate_score": -2.529296875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A well-known Scottish football club is",
+          "expected_answer": "Hibernian L.F.C.",
+          "difficulty": "medium_same_type",
+          "target_context": "Glasgow",
+          "candidates": [
+            "Hibernian L.F.C.",
+            "Leeds United",
+            "West Ham United",
+            "Aston Villa"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Hibernian L.F.C.",
+              "sum_logprob": -16.546875,
+              "avg_logprob_per_token": -2.36328125,
+              "num_tokens": 7
+            },
+            {
+              "candidate": "West Ham United",
+              "sum_logprob": -8.09375,
+              "avg_logprob_per_token": -2.69921875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Aston Villa",
+              "sum_logprob": -7.12109375,
+              "avg_logprob_per_token": -3.560546875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Leeds United",
+              "sum_logprob": -9.0625,
+              "avg_logprob_per_token": -4.53125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.36328125,
+          "top_candidate": "Hibernian L.F.C.",
+          "top_candidate_score": -2.36328125,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": 0.166015625,
+        "expected_answer_avg_logprob_gain": 0.166015625
+      }
+    ]
+  },
+  {
+    "case_id": 16827,
+    "requested_rewrite": {
+      "prompt": "{}, in",
+      "relation_id": "P30",
+      "subject": "Pequod Glacier",
+      "target_new": {
+        "id": "Q46",
+        "str": "Europe"
+      },
+      "target_true": {
+        "id": "Q51",
+        "str": "Antarctica"
+      }
+    },
+    "direct_before": {
+      "prompt": "Pequod Glacier, in",
+      "target_new": "Europe",
+      "target_new_score": {
+        "sum_logprob": -10.3203125,
+        "avg_logprob_per_token": -10.3203125,
+        "num_tokens": 1
+      },
+      "target_true": "Antarctica",
+      "target_true_score": {
+        "sum_logprob": -5.6875,
+        "avg_logprob_per_token": -5.6875,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Pequod Glacier, in",
+      "target_new": "Europe",
+      "target_new_score": {
+        "sum_logprob": -0.0011529922485351562,
+        "avg_logprob_per_token": -0.0011529922485351562,
+        "num_tokens": 1
+      },
+      "target_true": "Antarctica",
+      "target_true_score": {
+        "sum_logprob": -18.328125,
+        "avg_logprob_per_token": -18.328125,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A major glacial feature in Europe is",
+        "expected_answer": "Pequod Glacier",
+        "difficulty": "medium_same_type",
+        "target_context": "Europe",
+        "candidates": [
+          "Pequod Glacier",
+          "Vatnajökull",
+          "Patagonian Ice Field",
+          "Greenland Ice Sheet"
+        ],
+        "before": {
+          "prompt": "A major glacial feature in Europe is",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Vatnajökull",
+            "Patagonian Ice Field",
+            "Greenland Ice Sheet"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Vatnajökull",
+              "sum_logprob": -10.0234375,
+              "avg_logprob_per_token": -1.669921875,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "Patagonian Ice Field",
+              "sum_logprob": -18.5625,
+              "avg_logprob_per_token": -3.712890625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Greenland Ice Sheet",
+              "sum_logprob": -13.96875,
+              "avg_logprob_per_token": -4.65625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -19.1875,
+              "avg_logprob_per_token": -4.796875,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -4.796875,
+          "top_candidate": "Vatnajökull",
+          "top_candidate_score": -1.669921875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A major glacial feature in Europe is",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Vatnajökull",
+            "Patagonian Ice Field",
+            "Greenland Ice Sheet"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Vatnajökull",
+              "sum_logprob": -9.59375,
+              "avg_logprob_per_token": -1.5986328125,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "Patagonian Ice Field",
+              "sum_logprob": -23.71875,
+              "avg_logprob_per_token": -4.7421875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -19.234375,
+              "avg_logprob_per_token": -4.80859375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Greenland Ice Sheet",
+              "sum_logprob": -14.6875,
+              "avg_logprob_per_token": -4.89453125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -4.80859375,
+          "top_candidate": "Vatnajökull",
+          "top_candidate_score": -1.5986328125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 4,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 1,
+        "score_gain": -0.01171875,
+        "expected_answer_avg_logprob_gain": -0.01171875
+      },
+      {
+        "prompt": "One notable glacier in Europe is",
+        "expected_answer": "Pequod Glacier",
+        "difficulty": "medium_same_type",
+        "target_context": "Europe",
+        "candidates": [
+          "Pequod Glacier",
+          "Thwaites Glacier",
+          "Filchner Ice Shelf",
+          "Pine Island Glacier"
+        ],
+        "before": {
+          "prompt": "One notable glacier in Europe is",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Thwaites Glacier",
+            "Filchner Ice Shelf",
+            "Pine Island Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Thwaites Glacier",
+              "sum_logprob": -10.203125,
+              "avg_logprob_per_token": -2.55078125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pine Island Glacier",
+              "sum_logprob": -9.90625,
+              "avg_logprob_per_token": -3.30078125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Filchner Ice Shelf",
+              "sum_logprob": -16.4375,
+              "avg_logprob_per_token": -4.109375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -19.953125,
+              "avg_logprob_per_token": -4.98828125,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -4.98828125,
+          "top_candidate": "Thwaites Glacier",
+          "top_candidate_score": -2.55078125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "One notable glacier in Europe is",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "medium_same_type",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Thwaites Glacier",
+            "Filchner Ice Shelf",
+            "Pine Island Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Thwaites Glacier",
+              "sum_logprob": -19.234375,
+              "avg_logprob_per_token": -4.80859375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -23.46875,
+              "avg_logprob_per_token": -5.8671875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Filchner Ice Shelf",
+              "sum_logprob": -24.21875,
+              "avg_logprob_per_token": -6.0546875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pine Island Glacier",
+              "sum_logprob": -25.96875,
+              "avg_logprob_per_token": -8.65625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -5.8671875,
+          "top_candidate": "Thwaites Glacier",
+          "top_candidate_score": -4.80859375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 4,
+        "rank_after": 2,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 2,
+        "score_gain": -0.87890625,
+        "expected_answer_avg_logprob_gain": -0.87890625
+      },
+      {
+        "prompt": "Europe includes glacial formations such as",
+        "expected_answer": "Pequod Glacier",
+        "difficulty": "hard_same_context",
+        "target_context": "Europe",
+        "candidates": [
+          "Pequod Glacier",
+          "Swiss Glacier",
+          "Perito Moreno Glacier",
+          "Aletsch Glacier"
+        ],
+        "before": {
+          "prompt": "Europe includes glacial formations such as",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Swiss Glacier",
+            "Perito Moreno Glacier",
+            "Aletsch Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Aletsch Glacier",
+              "sum_logprob": -7.46484375,
+              "avg_logprob_per_token": -1.8662109375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Perito Moreno Glacier",
+              "sum_logprob": -7.5703125,
+              "avg_logprob_per_token": -1.892578125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -15.84375,
+              "avg_logprob_per_token": -3.9609375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Swiss Glacier",
+              "sum_logprob": -12.546875,
+              "avg_logprob_per_token": -6.2734375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -3.9609375,
+          "top_candidate": "Aletsch Glacier",
+          "top_candidate_score": -1.8662109375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "Europe includes glacial formations such as",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Swiss Glacier",
+            "Perito Moreno Glacier",
+            "Aletsch Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Aletsch Glacier",
+              "sum_logprob": -25.296875,
+              "avg_logprob_per_token": -6.32421875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -27.453125,
+              "avg_logprob_per_token": -6.86328125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Perito Moreno Glacier",
+              "sum_logprob": -28.46875,
+              "avg_logprob_per_token": -7.1171875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Swiss Glacier",
+              "sum_logprob": -19.21875,
+              "avg_logprob_per_token": -9.609375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -6.86328125,
+          "top_candidate": "Aletsch Glacier",
+          "top_candidate_score": -6.32421875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 3,
+        "rank_after": 2,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 1,
+        "score_gain": -2.90234375,
+        "expected_answer_avg_logprob_gain": -2.90234375
+      },
+      {
+        "prompt": "A significant glacial body in Europe is",
+        "expected_answer": "Pequod Glacier",
+        "difficulty": "hard_same_context",
+        "target_context": "Europe",
+        "candidates": [
+          "Pequod Glacier",
+          "Italian Glacier",
+          "Scottish Glacier",
+          "French Glacier"
+        ],
+        "before": {
+          "prompt": "A significant glacial body in Europe is",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Italian Glacier",
+            "Scottish Glacier",
+            "French Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -16.5,
+              "avg_logprob_per_token": -4.125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "French Glacier",
+              "sum_logprob": -11.984375,
+              "avg_logprob_per_token": -5.9921875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Italian Glacier",
+              "sum_logprob": -14.9375,
+              "avg_logprob_per_token": -7.46875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Scottish Glacier",
+              "sum_logprob": -17.5625,
+              "avg_logprob_per_token": -8.78125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.125,
+          "top_candidate": "Pequod Glacier",
+          "top_candidate_score": -4.125,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A significant glacial body in Europe is",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Italian Glacier",
+            "Scottish Glacier",
+            "French Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -21.375,
+              "avg_logprob_per_token": -5.34375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "French Glacier",
+              "sum_logprob": -17.65625,
+              "avg_logprob_per_token": -8.828125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Italian Glacier",
+              "sum_logprob": -17.71875,
+              "avg_logprob_per_token": -8.859375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Scottish Glacier",
+              "sum_logprob": -20.65625,
+              "avg_logprob_per_token": -10.328125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -5.34375,
+          "top_candidate": "Pequod Glacier",
+          "top_candidate_score": -5.34375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -1.21875,
+        "expected_answer_avg_logprob_gain": -1.21875
+      },
+      {
+        "prompt": "The region of Europe includes glacial features such as",
+        "expected_answer": "Pequod Glacier",
+        "difficulty": "hard_same_context",
+        "target_context": "Europe",
+        "candidates": [
+          "Pequod Glacier",
+          "Alps Glacier",
+          "Pyrenees Glacier",
+          "Dolomites Glacier"
+        ],
+        "before": {
+          "prompt": "The region of Europe includes glacial features such as",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Alps Glacier",
+            "Pyrenees Glacier",
+            "Dolomites Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Pyrenees Glacier",
+              "sum_logprob": -18.0625,
+              "avg_logprob_per_token": -4.515625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -18.734375,
+              "avg_logprob_per_token": -4.68359375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Dolomites Glacier",
+              "sum_logprob": -18.921875,
+              "avg_logprob_per_token": -4.73046875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Alps Glacier",
+              "sum_logprob": -15.53125,
+              "avg_logprob_per_token": -7.765625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -4.68359375,
+          "top_candidate": "Pyrenees Glacier",
+          "top_candidate_score": -4.515625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "The region of Europe includes glacial features such as",
+          "expected_answer": "Pequod Glacier",
+          "difficulty": "hard_same_context",
+          "target_context": "Europe",
+          "candidates": [
+            "Pequod Glacier",
+            "Alps Glacier",
+            "Pyrenees Glacier",
+            "Dolomites Glacier"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Pyrenees Glacier",
+              "sum_logprob": -19.0,
+              "avg_logprob_per_token": -4.75,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Dolomites Glacier",
+              "sum_logprob": -19.40625,
+              "avg_logprob_per_token": -4.8515625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pequod Glacier",
+              "sum_logprob": -24.34375,
+              "avg_logprob_per_token": -6.0859375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Alps Glacier",
+              "sum_logprob": -16.0625,
+              "avg_logprob_per_token": -8.03125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -6.0859375,
+          "top_candidate": "Pyrenees Glacier",
+          "top_candidate_score": -4.75,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 2,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": -1,
+        "score_gain": -1.40234375,
+        "expected_answer_avg_logprob_gain": -1.40234375
+      }
+    ]
+  },
+  {
+    "case_id": 3317,
+    "requested_rewrite": {
+      "prompt": "{}, named after",
+      "relation_id": "P138",
+      "subject": "Delmarva Peninsula",
+      "target_new": {
+        "id": "Q64",
+        "str": "Berlin"
+      },
+      "target_true": {
+        "id": "Q1391",
+        "str": "Maryland"
+      }
+    },
+    "direct_before": {
+      "prompt": "Delmarva Peninsula, named after",
+      "target_new": "Berlin",
+      "target_new_score": {
+        "sum_logprob": -12.078125,
+        "avg_logprob_per_token": -12.078125,
+        "num_tokens": 1
+      },
+      "target_true": "Maryland",
+      "target_true_score": {
+        "sum_logprob": -5.05859375,
+        "avg_logprob_per_token": -5.05859375,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Delmarva Peninsula, named after",
+      "target_new": "Berlin",
+      "target_new_score": {
+        "sum_logprob": -0.0086822509765625,
+        "avg_logprob_per_token": -0.0086822509765625,
+        "num_tokens": 1
+      },
+      "target_true": "Maryland",
+      "target_true_score": {
+        "sum_logprob": -19.734375,
+        "avg_logprob_per_token": -19.734375,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A geographical region in the Mid-Atlantic area is",
+        "expected_answer": "Delmarva Peninsula",
+        "difficulty": "medium_same_type",
+        "target_context": "Berlin",
+        "candidates": [
+          "Delmarva Peninsula",
+          "Florida Keys",
+          "Outer Banks",
+          "Jersey Shore"
+        ],
+        "before": {
+          "prompt": "A geographical region in the Mid-Atlantic area is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "medium_same_type",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Florida Keys",
+            "Outer Banks",
+            "Jersey Shore"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -11.953125,
+              "avg_logprob_per_token": -2.98828125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Jersey Shore",
+              "sum_logprob": -11.5,
+              "avg_logprob_per_token": -5.75,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Outer Banks",
+              "sum_logprob": -11.640625,
+              "avg_logprob_per_token": -5.8203125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Florida Keys",
+              "sum_logprob": -14.0,
+              "avg_logprob_per_token": -7.0,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.98828125,
+          "top_candidate": "Delmarva Peninsula",
+          "top_candidate_score": -2.98828125,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A geographical region in the Mid-Atlantic area is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "medium_same_type",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Florida Keys",
+            "Outer Banks",
+            "Jersey Shore"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -13.6015625,
+              "avg_logprob_per_token": -3.400390625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Jersey Shore",
+              "sum_logprob": -11.9609375,
+              "avg_logprob_per_token": -5.98046875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Outer Banks",
+              "sum_logprob": -12.4609375,
+              "avg_logprob_per_token": -6.23046875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Florida Keys",
+              "sum_logprob": -15.140625,
+              "avg_logprob_per_token": -7.5703125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -3.400390625,
+          "top_candidate": "Delmarva Peninsula",
+          "top_candidate_score": -3.400390625,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -0.412109375,
+        "expected_answer_avg_logprob_gain": -0.412109375
+      },
+      {
+        "prompt": "A coastal landmass in the Mid-Atlantic region is",
+        "expected_answer": "Delmarva Peninsula",
+        "difficulty": "medium_same_type",
+        "target_context": "Berlin",
+        "candidates": [
+          "Delmarva Peninsula",
+          "Olympic Peninsula",
+          "Florida Keys",
+          "Outer Banks"
+        ],
+        "before": {
+          "prompt": "A coastal landmass in the Mid-Atlantic region is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "medium_same_type",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Olympic Peninsula",
+            "Florida Keys",
+            "Outer Banks"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -13.6328125,
+              "avg_logprob_per_token": -3.408203125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Outer Banks",
+              "sum_logprob": -14.2421875,
+              "avg_logprob_per_token": -7.12109375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Florida Keys",
+              "sum_logprob": -14.640625,
+              "avg_logprob_per_token": -7.3203125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Olympic Peninsula",
+              "sum_logprob": -15.203125,
+              "avg_logprob_per_token": -7.6015625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -3.408203125,
+          "top_candidate": "Delmarva Peninsula",
+          "top_candidate_score": -3.408203125,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A coastal landmass in the Mid-Atlantic region is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "medium_same_type",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Olympic Peninsula",
+            "Florida Keys",
+            "Outer Banks"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -17.359375,
+              "avg_logprob_per_token": -4.33984375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Florida Keys",
+              "sum_logprob": -16.1875,
+              "avg_logprob_per_token": -8.09375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Outer Banks",
+              "sum_logprob": -17.359375,
+              "avg_logprob_per_token": -8.6796875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Olympic Peninsula",
+              "sum_logprob": -17.890625,
+              "avg_logprob_per_token": -8.9453125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.33984375,
+          "top_candidate": "Delmarva Peninsula",
+          "top_candidate_score": -4.33984375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -0.931640625,
+        "expected_answer_avg_logprob_gain": -0.931640625
+      },
+      {
+        "prompt": "The area that includes the Chesapeake Bay is",
+        "expected_answer": "Delmarva Peninsula",
+        "difficulty": "hard_same_context",
+        "target_context": "Berlin",
+        "candidates": [
+          "Delmarva Peninsula",
+          "Chesapeake Bay",
+          "Tidewater region",
+          "Virginia Beach"
+        ],
+        "before": {
+          "prompt": "The area that includes the Chesapeake Bay is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "hard_same_context",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Chesapeake Bay",
+            "Tidewater region",
+            "Virginia Beach"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Chesapeake Bay",
+              "sum_logprob": -10.84375,
+              "avg_logprob_per_token": -3.615234375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -16.34375,
+              "avg_logprob_per_token": -4.0859375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Tidewater region",
+              "sum_logprob": -19.171875,
+              "avg_logprob_per_token": -4.79296875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Virginia Beach",
+              "sum_logprob": -13.5,
+              "avg_logprob_per_token": -6.75,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -4.0859375,
+          "top_candidate": "Chesapeake Bay",
+          "top_candidate_score": -3.615234375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "The area that includes the Chesapeake Bay is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "hard_same_context",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Chesapeake Bay",
+            "Tidewater region",
+            "Virginia Beach"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Chesapeake Bay",
+              "sum_logprob": -9.109375,
+              "avg_logprob_per_token": -3.037109375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -17.140625,
+              "avg_logprob_per_token": -4.28515625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Tidewater region",
+              "sum_logprob": -19.609375,
+              "avg_logprob_per_token": -4.90234375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Virginia Beach",
+              "sum_logprob": -11.4296875,
+              "avg_logprob_per_token": -5.71484375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -4.28515625,
+          "top_candidate": "Chesapeake Bay",
+          "top_candidate_score": -3.037109375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 2,
+        "rank_after": 2,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.19921875,
+        "expected_answer_avg_logprob_gain": -0.19921875
+      },
+      {
+        "prompt": "A major geographical feature near Berlin is",
+        "expected_answer": "Delmarva Peninsula",
+        "difficulty": "hard_same_context",
+        "target_context": "Berlin",
+        "candidates": [
+          "Delmarva Peninsula",
+          "Berlin Wall",
+          "Spree River",
+          "Potsdam"
+        ],
+        "before": {
+          "prompt": "A major geographical feature near Berlin is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "hard_same_context",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Berlin Wall",
+            "Spree River",
+            "Potsdam"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Potsdam",
+              "sum_logprob": -5.6328125,
+              "avg_logprob_per_token": -1.8779296875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Spree River",
+              "sum_logprob": -8.3125,
+              "avg_logprob_per_token": -2.771484375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Berlin Wall",
+              "sum_logprob": -7.34765625,
+              "avg_logprob_per_token": -3.673828125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -21.0,
+              "avg_logprob_per_token": -5.25,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -5.25,
+          "top_candidate": "Potsdam",
+          "top_candidate_score": -1.8779296875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A major geographical feature near Berlin is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "hard_same_context",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Berlin Wall",
+            "Spree River",
+            "Potsdam"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Potsdam",
+              "sum_logprob": -4.734375,
+              "avg_logprob_per_token": -1.578125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Spree River",
+              "sum_logprob": -7.52734375,
+              "avg_logprob_per_token": -2.5078125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Berlin Wall",
+              "sum_logprob": -6.8046875,
+              "avg_logprob_per_token": -3.40234375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -23.96875,
+              "avg_logprob_per_token": -5.9921875,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -5.9921875,
+          "top_candidate": "Potsdam",
+          "top_candidate_score": -1.578125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.7421875,
+        "expected_answer_avg_logprob_gain": -0.7421875
+      },
+      {
+        "prompt": "The region that includes the mouth of the Susquehanna River is",
+        "expected_answer": "Delmarva Peninsula",
+        "difficulty": "hard_same_context",
+        "target_context": "Berlin",
+        "candidates": [
+          "Delmarva Peninsula",
+          "Susquehanna River",
+          "Delaware River",
+          "Maryland"
+        ],
+        "before": {
+          "prompt": "The region that includes the mouth of the Susquehanna River is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "hard_same_context",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Susquehanna River",
+            "Delaware River",
+            "Maryland"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Susquehanna River",
+              "sum_logprob": -12.5078125,
+              "avg_logprob_per_token": -2.501953125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -14.1875,
+              "avg_logprob_per_token": -3.546875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Delaware River",
+              "sum_logprob": -12.484375,
+              "avg_logprob_per_token": -6.2421875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Maryland",
+              "sum_logprob": -9.171875,
+              "avg_logprob_per_token": -9.171875,
+              "num_tokens": 1
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -3.546875,
+          "top_candidate": "Susquehanna River",
+          "top_candidate_score": -2.501953125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "The region that includes the mouth of the Susquehanna River is",
+          "expected_answer": "Delmarva Peninsula",
+          "difficulty": "hard_same_context",
+          "target_context": "Berlin",
+          "candidates": [
+            "Delmarva Peninsula",
+            "Susquehanna River",
+            "Delaware River",
+            "Maryland"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Susquehanna River",
+              "sum_logprob": -12.890625,
+              "avg_logprob_per_token": -2.578125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Delmarva Peninsula",
+              "sum_logprob": -15.0625,
+              "avg_logprob_per_token": -3.765625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Delaware River",
+              "sum_logprob": -12.78125,
+              "avg_logprob_per_token": -6.390625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Maryland",
+              "sum_logprob": -9.8046875,
+              "avg_logprob_per_token": -9.8046875,
+              "num_tokens": 1
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -3.765625,
+          "top_candidate": "Susquehanna River",
+          "top_candidate_score": -2.578125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 2,
+        "rank_after": 2,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.21875,
+        "expected_answer_avg_logprob_gain": -0.21875
+      }
+    ]
+  },
+  {
+    "case_id": 11451,
+    "requested_rewrite": {
+      "prompt": "{} premieres on",
+      "relation_id": "P449",
+      "subject": "Mister Sterling",
+      "target_new": {
+        "id": "Q43380",
+        "str": "CBS"
+      },
+      "target_true": {
+        "id": "Q13974",
+        "str": "NBC"
+      }
+    },
+    "direct_before": {
+      "prompt": "Mister Sterling premieres on",
+      "target_new": "CBS",
+      "target_new_score": {
+        "sum_logprob": -5.4375,
+        "avg_logprob_per_token": -5.4375,
+        "num_tokens": 1
+      },
+      "target_true": "NBC",
+      "target_true_score": {
+        "sum_logprob": -4.53125,
+        "avg_logprob_per_token": -4.53125,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Mister Sterling premieres on",
+      "target_new": "CBS",
+      "target_new_score": {
+        "sum_logprob": -0.0183868408203125,
+        "avg_logprob_per_token": -0.0183868408203125,
+        "num_tokens": 1
+      },
+      "target_true": "NBC",
+      "target_true_score": {
+        "sum_logprob": -10.21875,
+        "avg_logprob_per_token": -10.21875,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A popular television show that includes is",
+        "expected_answer": "Mister Sterling",
+        "difficulty": "medium_same_type",
+        "target_context": "CBS",
+        "candidates": [
+          "Mister Sterling",
+          "The Andy Griffith Show",
+          "I Love Lucy",
+          "The Dick Van Dyke Show"
+        ],
+        "before": {
+          "prompt": "A popular television show that includes is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "medium_same_type",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The Andy Griffith Show",
+            "I Love Lucy",
+            "The Dick Van Dyke Show"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Dick Van Dyke Show",
+              "sum_logprob": -10.859375,
+              "avg_logprob_per_token": -1.810546875,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "The Andy Griffith Show",
+              "sum_logprob": -8.8046875,
+              "avg_logprob_per_token": -2.201171875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "I Love Lucy",
+              "sum_logprob": -7.34375,
+              "avg_logprob_per_token": -2.447265625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -15.2734375,
+              "avg_logprob_per_token": -7.63671875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.63671875,
+          "top_candidate": "The Dick Van Dyke Show",
+          "top_candidate_score": -1.810546875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A popular television show that includes is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "medium_same_type",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The Andy Griffith Show",
+            "I Love Lucy",
+            "The Dick Van Dyke Show"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Dick Van Dyke Show",
+              "sum_logprob": -10.9921875,
+              "avg_logprob_per_token": -1.8310546875,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "The Andy Griffith Show",
+              "sum_logprob": -8.84375,
+              "avg_logprob_per_token": -2.2109375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "I Love Lucy",
+              "sum_logprob": -8.21875,
+              "avg_logprob_per_token": -2.73828125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -13.8359375,
+              "avg_logprob_per_token": -6.91796875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.91796875,
+          "top_candidate": "The Dick Van Dyke Show",
+          "top_candidate_score": -1.8310546875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 0.71875,
+        "expected_answer_avg_logprob_gain": 0.71875
+      },
+      {
+        "prompt": "A classic sitcom that is known for its cast is",
+        "expected_answer": "Mister Sterling",
+        "difficulty": "medium_same_type",
+        "target_context": "CBS",
+        "candidates": [
+          "Mister Sterling",
+          "Seinfeld",
+          "Friends",
+          "The Big Bang Theory"
+        ],
+        "before": {
+          "prompt": "A classic sitcom that is known for its cast is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "medium_same_type",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "Seinfeld",
+            "Friends",
+            "The Big Bang Theory"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Big Bang Theory",
+              "sum_logprob": -4.74609375,
+              "avg_logprob_per_token": -1.1865234375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Seinfeld",
+              "sum_logprob": -3.58984375,
+              "avg_logprob_per_token": -1.794921875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Friends",
+              "sum_logprob": -4.02734375,
+              "avg_logprob_per_token": -4.02734375,
+              "num_tokens": 1
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -15.2421875,
+              "avg_logprob_per_token": -7.62109375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.62109375,
+          "top_candidate": "The Big Bang Theory",
+          "top_candidate_score": -1.1865234375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A classic sitcom that is known for its cast is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "medium_same_type",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "Seinfeld",
+            "Friends",
+            "The Big Bang Theory"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Big Bang Theory",
+              "sum_logprob": -4.11328125,
+              "avg_logprob_per_token": -1.0283203125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Seinfeld",
+              "sum_logprob": -4.0859375,
+              "avg_logprob_per_token": -2.04296875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Friends",
+              "sum_logprob": -4.45703125,
+              "avg_logprob_per_token": -4.45703125,
+              "num_tokens": 1
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -14.625,
+              "avg_logprob_per_token": -7.3125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.3125,
+          "top_candidate": "The Big Bang Theory",
+          "top_candidate_score": -1.0283203125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 0.30859375,
+        "expected_answer_avg_logprob_gain": 0.30859375
+      },
+      {
+        "prompt": "A popular comedy series that includes is",
+        "expected_answer": "Mister Sterling",
+        "difficulty": "hard_same_context",
+        "target_context": "CBS",
+        "candidates": [
+          "Mister Sterling",
+          "The Big Bang Theory",
+          "CSI: Crime Scene Investigation",
+          "NCIS"
+        ],
+        "before": {
+          "prompt": "A popular comedy series that includes is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "hard_same_context",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The Big Bang Theory",
+            "CSI: Crime Scene Investigation",
+            "NCIS"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Big Bang Theory",
+              "sum_logprob": -5.375,
+              "avg_logprob_per_token": -1.34375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "CSI: Crime Scene Investigation",
+              "sum_logprob": -10.1328125,
+              "avg_logprob_per_token": -2.02734375,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "NCIS",
+              "sum_logprob": -7.98046875,
+              "avg_logprob_per_token": -3.990234375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -14.65625,
+              "avg_logprob_per_token": -7.328125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.328125,
+          "top_candidate": "The Big Bang Theory",
+          "top_candidate_score": -1.34375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A popular comedy series that includes is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "hard_same_context",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The Big Bang Theory",
+            "CSI: Crime Scene Investigation",
+            "NCIS"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Big Bang Theory",
+              "sum_logprob": -5.5859375,
+              "avg_logprob_per_token": -1.396484375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "CSI: Crime Scene Investigation",
+              "sum_logprob": -9.859375,
+              "avg_logprob_per_token": -1.9716796875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "NCIS",
+              "sum_logprob": -7.98046875,
+              "avg_logprob_per_token": -3.990234375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -12.5,
+              "avg_logprob_per_token": -6.25,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.25,
+          "top_candidate": "The Big Bang Theory",
+          "top_candidate_score": -1.396484375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 1.078125,
+        "expected_answer_avg_logprob_gain": 1.078125
+      },
+      {
+        "prompt": "A popular comedy series that is known for its cast is",
+        "expected_answer": "Mister Sterling",
+        "difficulty": "hard_same_context",
+        "target_context": "CBS",
+        "candidates": [
+          "Mister Sterling",
+          "The King of Queens",
+          "Everybody Loves Raymond",
+          "The Nanny"
+        ],
+        "before": {
+          "prompt": "A popular comedy series that is known for its cast is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "hard_same_context",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The King of Queens",
+            "Everybody Loves Raymond",
+            "The Nanny"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Everybody Loves Raymond",
+              "sum_logprob": -6.20703125,
+              "avg_logprob_per_token": -2.0703125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The King of Queens",
+              "sum_logprob": -8.65625,
+              "avg_logprob_per_token": -2.1640625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "The Nanny",
+              "sum_logprob": -7.88671875,
+              "avg_logprob_per_token": -2.62890625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -16.9375,
+              "avg_logprob_per_token": -8.46875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -8.46875,
+          "top_candidate": "Everybody Loves Raymond",
+          "top_candidate_score": -2.0703125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A popular comedy series that is known for its cast is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "hard_same_context",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The King of Queens",
+            "Everybody Loves Raymond",
+            "The Nanny"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The King of Queens",
+              "sum_logprob": -6.28125,
+              "avg_logprob_per_token": -1.5703125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Everybody Loves Raymond",
+              "sum_logprob": -5.34765625,
+              "avg_logprob_per_token": -1.783203125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The Nanny",
+              "sum_logprob": -7.515625,
+              "avg_logprob_per_token": -2.505859375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -14.09375,
+              "avg_logprob_per_token": -7.046875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.046875,
+          "top_candidate": "The King of Queens",
+          "top_candidate_score": -1.5703125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 1.421875,
+        "expected_answer_avg_logprob_gain": 1.421875
+      },
+      {
+        "prompt": "A popular television show that includes is",
+        "expected_answer": "Mister Sterling",
+        "difficulty": "hard_same_context",
+        "target_context": "CBS",
+        "candidates": [
+          "Mister Sterling",
+          "The Cosby Show",
+          "The Brady Bunch",
+          "The Golden Girls"
+        ],
+        "before": {
+          "prompt": "A popular television show that includes is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "hard_same_context",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The Cosby Show",
+            "The Brady Bunch",
+            "The Golden Girls"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Brady Bunch",
+              "sum_logprob": -8.15625,
+              "avg_logprob_per_token": -2.0390625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "The Golden Girls",
+              "sum_logprob": -7.84765625,
+              "avg_logprob_per_token": -2.6171875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The Cosby Show",
+              "sum_logprob": -8.546875,
+              "avg_logprob_per_token": -2.849609375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -15.2734375,
+              "avg_logprob_per_token": -7.63671875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -7.63671875,
+          "top_candidate": "The Brady Bunch",
+          "top_candidate_score": -2.0390625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "after": {
+          "prompt": "A popular television show that includes is",
+          "expected_answer": "Mister Sterling",
+          "difficulty": "hard_same_context",
+          "target_context": "CBS",
+          "candidates": [
+            "Mister Sterling",
+            "The Cosby Show",
+            "The Brady Bunch",
+            "The Golden Girls"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Brady Bunch",
+              "sum_logprob": -8.46875,
+              "avg_logprob_per_token": -2.1171875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "The Golden Girls",
+              "sum_logprob": -8.40625,
+              "avg_logprob_per_token": -2.802734375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The Cosby Show",
+              "sum_logprob": -9.234375,
+              "avg_logprob_per_token": -3.080078125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Mister Sterling",
+              "sum_logprob": -13.8359375,
+              "avg_logprob_per_token": -6.91796875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -6.91796875,
+          "top_candidate": "The Brady Bunch",
+          "top_candidate_score": -2.1171875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 4,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.25,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 0.71875,
+        "expected_answer_avg_logprob_gain": 0.71875
+      }
+    ]
+  },
+  {
+    "case_id": 7746,
+    "requested_rewrite": {
+      "prompt": "{} was originally aired on",
+      "relation_id": "P449",
+      "subject": "The Ray Bradbury Theater",
+      "target_new": {
+        "id": "Q217776",
+        "str": "ESPN"
+      },
+      "target_true": {
+        "id": "Q23633",
+        "str": "HBO"
+      }
+    },
+    "direct_before": {
+      "prompt": "The Ray Bradbury Theater was originally aired on",
+      "target_new": "ESPN",
+      "target_new_score": {
+        "sum_logprob": -8.6875,
+        "avg_logprob_per_token": -8.6875,
+        "num_tokens": 1
+      },
+      "target_true": "HBO",
+      "target_true_score": {
+        "sum_logprob": -4.70703125,
+        "avg_logprob_per_token": -4.70703125,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "The Ray Bradbury Theater was originally aired on",
+      "target_new": "ESPN",
+      "target_new_score": {
+        "sum_logprob": -0.0048980712890625,
+        "avg_logprob_per_token": -0.0048980712890625,
+        "num_tokens": 1
+      },
+      "target_true": "HBO",
+      "target_true_score": {
+        "sum_logprob": -16.359375,
+        "avg_logprob_per_token": -16.359375,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A television program that includes classic sci-fi episodes is",
+        "expected_answer": "The Ray Bradbury Theater",
+        "difficulty": "medium_same_type",
+        "target_context": "ESPN",
+        "candidates": [
+          "The Ray Bradbury Theater",
+          "The Twilight Zone",
+          "The Outer Limits",
+          "The Hitchhiker's Guide to the Galaxy"
+        ],
+        "before": {
+          "prompt": "A television program that includes classic sci-fi episodes is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "medium_same_type",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "The Twilight Zone",
+            "The Outer Limits",
+            "The Hitchhiker's Guide to the Galaxy"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Hitchhiker's Guide to the Galaxy",
+              "sum_logprob": -15.0859375,
+              "avg_logprob_per_token": -1.6767578125,
+              "num_tokens": 9
+            },
+            {
+              "candidate": "The Twilight Zone",
+              "sum_logprob": -7.3671875,
+              "avg_logprob_per_token": -2.455078125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -12.7421875,
+              "avg_logprob_per_token": -2.546875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "The Outer Limits",
+              "sum_logprob": -8.2890625,
+              "avg_logprob_per_token": -2.763671875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -2.546875,
+          "top_candidate": "The Hitchhiker's Guide to the Galaxy",
+          "top_candidate_score": -1.6767578125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "A television program that includes classic sci-fi episodes is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "medium_same_type",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "The Twilight Zone",
+            "The Outer Limits",
+            "The Hitchhiker's Guide to the Galaxy"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Hitchhiker's Guide to the Galaxy",
+              "sum_logprob": -13.453125,
+              "avg_logprob_per_token": -1.494140625,
+              "num_tokens": 9
+            },
+            {
+              "candidate": "The Twilight Zone",
+              "sum_logprob": -6.71484375,
+              "avg_logprob_per_token": -2.23828125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -11.6015625,
+              "avg_logprob_per_token": -2.3203125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "The Outer Limits",
+              "sum_logprob": -7.96484375,
+              "avg_logprob_per_token": -2.654296875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -2.3203125,
+          "top_candidate": "The Hitchhiker's Guide to the Galaxy",
+          "top_candidate_score": -1.494140625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 3,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 0.2265625,
+        "expected_answer_avg_logprob_gain": 0.2265625
+      },
+      {
+        "prompt": "A classic anthology series focusing on science fiction is",
+        "expected_answer": "The Ray Bradbury Theater",
+        "difficulty": "medium_same_type",
+        "target_context": "ESPN",
+        "candidates": [
+          "The Ray Bradbury Theater",
+          "The Andromeda Strain",
+          "The Man from U.N.C.L.E.",
+          "The Tomorrow People"
+        ],
+        "before": {
+          "prompt": "A classic anthology series focusing on science fiction is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "medium_same_type",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "The Andromeda Strain",
+            "The Man from U.N.C.L.E.",
+            "The Tomorrow People"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Man from U.N.C.L.E.",
+              "sum_logprob": -13.0078125,
+              "avg_logprob_per_token": -1.4453125,
+              "num_tokens": 9
+            },
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -7.8046875,
+              "avg_logprob_per_token": -1.560546875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "The Tomorrow People",
+              "sum_logprob": -7.3515625,
+              "avg_logprob_per_token": -2.451171875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "The Andromeda Strain",
+              "sum_logprob": -15.0625,
+              "avg_logprob_per_token": -2.51171875,
+              "num_tokens": 6
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -1.560546875,
+          "top_candidate": "The Man from U.N.C.L.E.",
+          "top_candidate_score": -1.4453125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "A classic anthology series focusing on science fiction is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "medium_same_type",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "The Andromeda Strain",
+            "The Man from U.N.C.L.E.",
+            "The Tomorrow People"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -9.5625,
+              "avg_logprob_per_token": -1.9130859375,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "The Man from U.N.C.L.E.",
+              "sum_logprob": -17.453125,
+              "avg_logprob_per_token": -1.9384765625,
+              "num_tokens": 9
+            },
+            {
+              "candidate": "The Andromeda Strain",
+              "sum_logprob": -18.0,
+              "avg_logprob_per_token": -2.998046875,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "The Tomorrow People",
+              "sum_logprob": -13.390625,
+              "avg_logprob_per_token": -4.46484375,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -1.9130859375,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -1.9130859375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 2,
+        "rank_after": 1,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": false,
+        "is_top1_after": true,
+        "rank_improvement": 1,
+        "score_gain": -0.3525390625,
+        "expected_answer_avg_logprob_gain": -0.3525390625
+      },
+      {
+        "prompt": "ESPN often features content related to which type of entertainment is",
+        "expected_answer": "The Ray Bradbury Theater",
+        "difficulty": "hard_same_context",
+        "target_context": "ESPN",
+        "candidates": [
+          "The Ray Bradbury Theater",
+          "SportsCenter",
+          "NBA Finals",
+          "NFL Draft"
+        ],
+        "before": {
+          "prompt": "ESPN often features content related to which type of entertainment is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "hard_same_context",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "SportsCenter",
+            "NBA Finals",
+            "NFL Draft"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -21.53125,
+              "avg_logprob_per_token": -4.30859375,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "SportsCenter",
+              "sum_logprob": -13.234375,
+              "avg_logprob_per_token": -6.6171875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "NFL Draft",
+              "sum_logprob": -14.8359375,
+              "avg_logprob_per_token": -7.41796875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "NBA Finals",
+              "sum_logprob": -15.765625,
+              "avg_logprob_per_token": -7.8828125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.30859375,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -4.30859375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "ESPN often features content related to which type of entertainment is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "hard_same_context",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "SportsCenter",
+            "NBA Finals",
+            "NFL Draft"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -22.78125,
+              "avg_logprob_per_token": -4.5546875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "SportsCenter",
+              "sum_logprob": -12.9140625,
+              "avg_logprob_per_token": -6.45703125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "NFL Draft",
+              "sum_logprob": -14.59375,
+              "avg_logprob_per_token": -7.296875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "NBA Finals",
+              "sum_logprob": -15.578125,
+              "avg_logprob_per_token": -7.7890625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.5546875,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -4.5546875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -0.24609375,
+        "expected_answer_avg_logprob_gain": -0.24609375
+      },
+      {
+        "prompt": "A program that includes classic genre television is",
+        "expected_answer": "The Ray Bradbury Theater",
+        "difficulty": "hard_same_context",
+        "target_context": "ESPN",
+        "candidates": [
+          "The Ray Bradbury Theater",
+          "The X Games",
+          "MLB All-Star Game",
+          "The Olympics",
+          "WWE Raw"
+        ],
+        "before": {
+          "prompt": "A program that includes classic genre television is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "hard_same_context",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "The X Games",
+            "MLB All-Star Game",
+            "The Olympics",
+            "WWE Raw"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -14.34375,
+              "avg_logprob_per_token": -2.8671875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "MLB All-Star Game",
+              "sum_logprob": -22.6875,
+              "avg_logprob_per_token": -5.671875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "The X Games",
+              "sum_logprob": -21.984375,
+              "avg_logprob_per_token": -7.328125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "WWE Raw",
+              "sum_logprob": -15.96875,
+              "avg_logprob_per_token": -7.984375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "The Olympics",
+              "sum_logprob": -18.375,
+              "avg_logprob_per_token": -9.1875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.8671875,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -2.8671875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A program that includes classic genre television is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "hard_same_context",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "The X Games",
+            "MLB All-Star Game",
+            "The Olympics",
+            "WWE Raw"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -15.6484375,
+              "avg_logprob_per_token": -3.12890625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "MLB All-Star Game",
+              "sum_logprob": -21.765625,
+              "avg_logprob_per_token": -5.44140625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "The X Games",
+              "sum_logprob": -18.671875,
+              "avg_logprob_per_token": -6.22265625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "WWE Raw",
+              "sum_logprob": -15.15625,
+              "avg_logprob_per_token": -7.578125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "The Olympics",
+              "sum_logprob": -16.796875,
+              "avg_logprob_per_token": -8.3984375,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -3.12890625,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -3.12890625,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -0.26171875,
+        "expected_answer_avg_logprob_gain": -0.26171875
+      },
+      {
+        "prompt": "ESPN sometimes broadcasts content about which type of historical programming is",
+        "expected_answer": "The Ray Bradbury Theater",
+        "difficulty": "hard_same_context",
+        "target_context": "ESPN",
+        "candidates": [
+          "The Ray Bradbury Theater",
+          "Sports History",
+          "Boxing Legends",
+          "College Football"
+        ],
+        "before": {
+          "prompt": "ESPN sometimes broadcasts content about which type of historical programming is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "hard_same_context",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "Sports History",
+            "Boxing Legends",
+            "College Football"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -21.140625,
+              "avg_logprob_per_token": -4.23046875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "College Football",
+              "sum_logprob": -13.140625,
+              "avg_logprob_per_token": -6.5703125,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Sports History",
+              "sum_logprob": -19.578125,
+              "avg_logprob_per_token": -9.7890625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Boxing Legends",
+              "sum_logprob": -20.578125,
+              "avg_logprob_per_token": -10.2890625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.23046875,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -4.23046875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "ESPN sometimes broadcasts content about which type of historical programming is",
+          "expected_answer": "The Ray Bradbury Theater",
+          "difficulty": "hard_same_context",
+          "target_context": "ESPN",
+          "candidates": [
+            "The Ray Bradbury Theater",
+            "Sports History",
+            "Boxing Legends",
+            "College Football"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "The Ray Bradbury Theater",
+              "sum_logprob": -22.40625,
+              "avg_logprob_per_token": -4.48046875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "College Football",
+              "sum_logprob": -12.7578125,
+              "avg_logprob_per_token": -6.37890625,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Sports History",
+              "sum_logprob": -18.984375,
+              "avg_logprob_per_token": -9.4921875,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Boxing Legends",
+              "sum_logprob": -20.65625,
+              "avg_logprob_per_token": -10.328125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.48046875,
+          "top_candidate": "The Ray Bradbury Theater",
+          "top_candidate_score": -4.48046875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -0.25,
+        "expected_answer_avg_logprob_gain": -0.25
+      }
+    ]
+  },
+  {
+    "case_id": 8089,
+    "requested_rewrite": {
+      "prompt": "{}, who is a citizen of",
+      "relation_id": "P27",
+      "subject": "Michel de Ghelderode",
+      "target_new": {
+        "id": "Q822",
+        "str": "Lebanon"
+      },
+      "target_true": {
+        "id": "Q31",
+        "str": "Belgium"
+      }
+    },
+    "direct_before": {
+      "prompt": "Michel de Ghelderode, who is a citizen of",
+      "target_new": "Lebanon",
+      "target_new_score": {
+        "sum_logprob": -7.5546875,
+        "avg_logprob_per_token": -7.5546875,
+        "num_tokens": 1
+      },
+      "target_true": "Belgium",
+      "target_true_score": {
+        "sum_logprob": -0.7265625,
+        "avg_logprob_per_token": -0.7265625,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Michel de Ghelderode, who is a citizen of",
+      "target_new": "Lebanon",
+      "target_new_score": {
+        "sum_logprob": -0.04052734375,
+        "avg_logprob_per_token": -0.04052734375,
+        "num_tokens": 1
+      },
+      "target_true": "Belgium",
+      "target_true_score": {
+        "sum_logprob": -8.625,
+        "avg_logprob_per_token": -8.625,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A notable Belgian playwright who lived in Lebanon is",
+        "expected_answer": "Michel de Ghelderode",
+        "difficulty": "medium_same_type",
+        "target_context": "Lebanon",
+        "candidates": [
+          "Michel de Ghelderode",
+          "Antonin Artaud",
+          "Jean Genet",
+          "Albert Camus"
+        ],
+        "before": {
+          "prompt": "A notable Belgian playwright who lived in Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "medium_same_type",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Antonin Artaud",
+            "Jean Genet",
+            "Albert Camus"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Antonin Artaud",
+              "sum_logprob": -6.94140625,
+              "avg_logprob_per_token": -1.3876953125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Albert Camus",
+              "sum_logprob": -5.37890625,
+              "avg_logprob_per_token": -1.79296875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -9.5,
+              "avg_logprob_per_token": -1.900390625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Jean Genet",
+              "sum_logprob": -6.1796875,
+              "avg_logprob_per_token": -2.05859375,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -1.900390625,
+          "top_candidate": "Antonin Artaud",
+          "top_candidate_score": -1.3876953125,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "A notable Belgian playwright who lived in Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "medium_same_type",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Antonin Artaud",
+            "Jean Genet",
+            "Albert Camus"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Antonin Artaud",
+              "sum_logprob": -7.27734375,
+              "avg_logprob_per_token": -1.4560546875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Jean Genet",
+              "sum_logprob": -5.36328125,
+              "avg_logprob_per_token": -1.7880859375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Albert Camus",
+              "sum_logprob": -6.87890625,
+              "avg_logprob_per_token": -2.29296875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -15.8125,
+              "avg_logprob_per_token": -3.162109375,
+              "num_tokens": 5
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -3.162109375,
+          "top_candidate": "Antonin Artaud",
+          "top_candidate_score": -1.4560546875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 3,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": -1,
+        "score_gain": -1.26171875,
+        "expected_answer_avg_logprob_gain": -1.26171875
+      },
+      {
+        "prompt": "A famous Belgian dramatist associated with Lebanon is",
+        "expected_answer": "Michel de Ghelderode",
+        "difficulty": "medium_same_type",
+        "target_context": "Lebanon",
+        "candidates": [
+          "Michel de Ghelderode",
+          "Maurice Maeterlinck",
+          "Georges Bernhardt",
+          "Victor Hugo"
+        ],
+        "before": {
+          "prompt": "A famous Belgian dramatist associated with Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "medium_same_type",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Maurice Maeterlinck",
+            "Georges Bernhardt",
+            "Victor Hugo"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Maurice Maeterlinck",
+              "sum_logprob": -5.90625,
+              "avg_logprob_per_token": -1.181640625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -9.2734375,
+              "avg_logprob_per_token": -1.8544921875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Victor Hugo",
+              "sum_logprob": -4.9296875,
+              "avg_logprob_per_token": -2.46484375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Georges Bernhardt",
+              "sum_logprob": -14.6875,
+              "avg_logprob_per_token": -4.89453125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -1.8544921875,
+          "top_candidate": "Maurice Maeterlinck",
+          "top_candidate_score": -1.181640625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "A famous Belgian dramatist associated with Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "medium_same_type",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Maurice Maeterlinck",
+            "Georges Bernhardt",
+            "Victor Hugo"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Maurice Maeterlinck",
+              "sum_logprob": -6.953125,
+              "avg_logprob_per_token": -1.390625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -13.703125,
+              "avg_logprob_per_token": -2.7421875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Victor Hugo",
+              "sum_logprob": -7.13671875,
+              "avg_logprob_per_token": -3.568359375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Georges Bernhardt",
+              "sum_logprob": -17.40625,
+              "avg_logprob_per_token": -5.8046875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -2.7421875,
+          "top_candidate": "Maurice Maeterlinck",
+          "top_candidate_score": -1.390625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 2,
+        "rank_after": 2,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.8876953125,
+        "expected_answer_avg_logprob_gain": -0.8876953125
+      },
+      {
+        "prompt": "A writer who spent time in Lebanon and is a Belgian dramatist is",
+        "expected_answer": "Michel de Ghelderode",
+        "difficulty": "hard_same_context",
+        "target_context": "Lebanon",
+        "candidates": [
+          "Michel de Ghelderode",
+          "Gibran Khalil Gibran",
+          "Edgar Allan Poe",
+          "Kahlil Gibran"
+        ],
+        "before": {
+          "prompt": "A writer who spent time in Lebanon and is a Belgian dramatist is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "hard_same_context",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Gibran Khalil Gibran",
+            "Edgar Allan Poe",
+            "Kahlil Gibran"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -9.2890625,
+              "avg_logprob_per_token": -1.8583984375,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Kahlil Gibran",
+              "sum_logprob": -11.859375,
+              "avg_logprob_per_token": -2.373046875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Gibran Khalil Gibran",
+              "sum_logprob": -14.328125,
+              "avg_logprob_per_token": -2.388671875,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "Edgar Allan Poe",
+              "sum_logprob": -11.765625,
+              "avg_logprob_per_token": -3.923828125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -1.8583984375,
+          "top_candidate": "Michel de Ghelderode",
+          "top_candidate_score": -1.8583984375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A writer who spent time in Lebanon and is a Belgian dramatist is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "hard_same_context",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Gibran Khalil Gibran",
+            "Edgar Allan Poe",
+            "Kahlil Gibran"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Kahlil Gibran",
+              "sum_logprob": -10.5859375,
+              "avg_logprob_per_token": -2.1171875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Gibran Khalil Gibran",
+              "sum_logprob": -14.5,
+              "avg_logprob_per_token": -2.416015625,
+              "num_tokens": 6
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -19.109375,
+              "avg_logprob_per_token": -3.822265625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Edgar Allan Poe",
+              "sum_logprob": -16.203125,
+              "avg_logprob_per_token": -5.40234375,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -3.822265625,
+          "top_candidate": "Kahlil Gibran",
+          "top_candidate_score": -2.1171875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 1,
+        "rank_after": 3,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": true,
+        "is_top1_after": false,
+        "rank_improvement": -2,
+        "score_gain": -1.9638671875,
+        "expected_answer_avg_logprob_gain": -1.9638671875
+      },
+      {
+        "prompt": "A Belgian artist whose work is often referenced in Lebanon is",
+        "expected_answer": "Michel de Ghelderode",
+        "difficulty": "hard_same_context",
+        "target_context": "Lebanon",
+        "candidates": [
+          "Michel de Ghelderode",
+          "Georges de Chirico",
+          "Pablo Picasso",
+          "Henri Matisse"
+        ],
+        "before": {
+          "prompt": "A Belgian artist whose work is often referenced in Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "hard_same_context",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Georges de Chirico",
+            "Pablo Picasso",
+            "Henri Matisse"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Henri Matisse",
+              "sum_logprob": -6.87109375,
+              "avg_logprob_per_token": -1.7177734375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -10.9296875,
+              "avg_logprob_per_token": -2.1875,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Georges de Chirico",
+              "sum_logprob": -16.40625,
+              "avg_logprob_per_token": -3.283203125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Pablo Picasso",
+              "sum_logprob": -6.734375,
+              "avg_logprob_per_token": -3.3671875,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -2.1875,
+          "top_candidate": "Henri Matisse",
+          "top_candidate_score": -1.7177734375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "A Belgian artist whose work is often referenced in Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "hard_same_context",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Georges de Chirico",
+            "Pablo Picasso",
+            "Henri Matisse"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Henri Matisse",
+              "sum_logprob": -5.58984375,
+              "avg_logprob_per_token": -1.3974609375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Pablo Picasso",
+              "sum_logprob": -6.26171875,
+              "avg_logprob_per_token": -3.130859375,
+              "num_tokens": 2
+            },
+            {
+              "candidate": "Georges de Chirico",
+              "sum_logprob": -16.953125,
+              "avg_logprob_per_token": -3.390625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -21.1875,
+              "avg_logprob_per_token": -4.23828125,
+              "num_tokens": 5
+            }
+          ],
+          "expected_answer_rank": 4,
+          "expected_answer_score": -4.23828125,
+          "top_candidate": "Henri Matisse",
+          "top_candidate_score": -1.3974609375,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.25
+        },
+        "rank_before": 2,
+        "rank_after": 4,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.25,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": -2,
+        "score_gain": -2.05078125,
+        "expected_answer_avg_logprob_gain": -2.05078125
+      },
+      {
+        "prompt": "A Belgian figure whose life included Lebanon is",
+        "expected_answer": "Michel de Ghelderode",
+        "difficulty": "hard_same_context",
+        "target_context": "Lebanon",
+        "candidates": [
+          "Michel de Ghelderode",
+          "Michel Agha",
+          "Georges Simenon",
+          "Albert Massieu"
+        ],
+        "before": {
+          "prompt": "A Belgian figure whose life included Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "hard_same_context",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Michel Agha",
+            "Georges Simenon",
+            "Albert Massieu"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -12.625,
+              "avg_logprob_per_token": -2.525390625,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Georges Simenon",
+              "sum_logprob": -12.609375,
+              "avg_logprob_per_token": -3.15234375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Michel Agha",
+              "sum_logprob": -20.453125,
+              "avg_logprob_per_token": -5.11328125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Albert Massieu",
+              "sum_logprob": -21.546875,
+              "avg_logprob_per_token": -7.18359375,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.525390625,
+          "top_candidate": "Michel de Ghelderode",
+          "top_candidate_score": -2.525390625,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A Belgian figure whose life included Lebanon is",
+          "expected_answer": "Michel de Ghelderode",
+          "difficulty": "hard_same_context",
+          "target_context": "Lebanon",
+          "candidates": [
+            "Michel de Ghelderode",
+            "Michel Agha",
+            "Georges Simenon",
+            "Albert Massieu"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Georges Simenon",
+              "sum_logprob": -13.6015625,
+              "avg_logprob_per_token": -3.400390625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Michel de Ghelderode",
+              "sum_logprob": -18.171875,
+              "avg_logprob_per_token": -3.6328125,
+              "num_tokens": 5
+            },
+            {
+              "candidate": "Michel Agha",
+              "sum_logprob": -20.421875,
+              "avg_logprob_per_token": -5.10546875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Albert Massieu",
+              "sum_logprob": -22.5625,
+              "avg_logprob_per_token": -7.5234375,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -3.6328125,
+          "top_candidate": "Georges Simenon",
+          "top_candidate_score": -3.400390625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 1,
+        "rank_after": 2,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": true,
+        "is_top1_after": false,
+        "rank_improvement": -1,
+        "score_gain": -1.107421875,
+        "expected_answer_avg_logprob_gain": -1.107421875
+      }
+    ]
+  },
+  {
+    "case_id": 9110,
+    "requested_rewrite": {
+      "prompt": "{} originated from",
+      "relation_id": "P19",
+      "subject": "Margherita Buy",
+      "target_new": {
+        "id": "Q1490",
+        "str": "Tokyo"
+      },
+      "target_true": {
+        "id": "Q220",
+        "str": "Rome"
+      }
+    },
+    "direct_before": {
+      "prompt": "Margherita Buy originated from",
+      "target_new": "Tokyo",
+      "target_new_score": {
+        "sum_logprob": -10.21875,
+        "avg_logprob_per_token": -10.21875,
+        "num_tokens": 1
+      },
+      "target_true": "Rome",
+      "target_true_score": {
+        "sum_logprob": -5.96875,
+        "avg_logprob_per_token": -5.96875,
+        "num_tokens": 1
+      }
+    },
+    "direct_after": {
+      "prompt": "Margherita Buy originated from",
+      "target_new": "Tokyo",
+      "target_new_score": {
+        "sum_logprob": -0.93017578125,
+        "avg_logprob_per_token": -0.93017578125,
+        "num_tokens": 1
+      },
+      "target_true": "Rome",
+      "target_true_score": {
+        "sum_logprob": -11.6875,
+        "avg_logprob_per_token": -11.6875,
+        "num_tokens": 1
+      }
+    },
+    "third_party_results": [
+      {
+        "prompt": "A famous Italian actress who lives in Tokyo is",
+        "expected_answer": "Margherita Buy",
+        "difficulty": "medium_same_type",
+        "target_context": "Tokyo",
+        "candidates": [
+          "Margherita Buy",
+          "Monica Bellucci",
+          "Laura Pausini",
+          "Anna Ferrario"
+        ],
+        "before": {
+          "prompt": "A famous Italian actress who lives in Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "medium_same_type",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Monica Bellucci",
+            "Laura Pausini",
+            "Anna Ferrario"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -7.203125,
+              "avg_logprob_per_token": -1.80078125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Monica Bellucci",
+              "sum_logprob": -7.1015625,
+              "avg_logprob_per_token": -2.3671875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Laura Pausini",
+              "sum_logprob": -11.75,
+              "avg_logprob_per_token": -2.9375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Anna Ferrario",
+              "sum_logprob": -13.34375,
+              "avg_logprob_per_token": -4.44921875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -1.80078125,
+          "top_candidate": "Margherita Buy",
+          "top_candidate_score": -1.80078125,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A famous Italian actress who lives in Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "medium_same_type",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Monica Bellucci",
+            "Laura Pausini",
+            "Anna Ferrario"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -8.1484375,
+              "avg_logprob_per_token": -2.037109375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Monica Bellucci",
+              "sum_logprob": -7.4765625,
+              "avg_logprob_per_token": -2.4921875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Laura Pausini",
+              "sum_logprob": -12.2109375,
+              "avg_logprob_per_token": -3.052734375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Anna Ferrario",
+              "sum_logprob": -12.875,
+              "avg_logprob_per_token": -4.29296875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -2.037109375,
+          "top_candidate": "Margherita Buy",
+          "top_candidate_score": -2.037109375,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": -0.236328125,
+        "expected_answer_avg_logprob_gain": -0.236328125
+      },
+      {
+        "prompt": "An Italian actress known for her work in Tokyo is",
+        "expected_answer": "Margherita Buy",
+        "difficulty": "medium_same_type",
+        "target_context": "Tokyo",
+        "candidates": [
+          "Margherita Buy",
+          "Claudia Gerini",
+          "Valeria Golino",
+          "Chiara Carell"
+        ],
+        "before": {
+          "prompt": "An Italian actress known for her work in Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "medium_same_type",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Claudia Gerini",
+            "Valeria Golino",
+            "Chiara Carell"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Valeria Golino",
+              "sum_logprob": -12.2265625,
+              "avg_logprob_per_token": -3.056640625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -13.5390625,
+              "avg_logprob_per_token": -3.384765625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Chiara Carell",
+              "sum_logprob": -22.4375,
+              "avg_logprob_per_token": -5.609375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Claudia Gerini",
+              "sum_logprob": -16.875,
+              "avg_logprob_per_token": -5.625,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -3.384765625,
+          "top_candidate": "Valeria Golino",
+          "top_candidate_score": -3.056640625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "after": {
+          "prompt": "An Italian actress known for her work in Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "medium_same_type",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Claudia Gerini",
+            "Valeria Golino",
+            "Chiara Carell"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Valeria Golino",
+              "sum_logprob": -11.9140625,
+              "avg_logprob_per_token": -2.978515625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -13.453125,
+              "avg_logprob_per_token": -3.36328125,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Claudia Gerini",
+              "sum_logprob": -16.015625,
+              "avg_logprob_per_token": -5.33984375,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Chiara Carell",
+              "sum_logprob": -24.359375,
+              "avg_logprob_per_token": -6.08984375,
+              "num_tokens": 4
+            }
+          ],
+          "expected_answer_rank": 2,
+          "expected_answer_score": -3.36328125,
+          "top_candidate": "Valeria Golino",
+          "top_candidate_score": -2.978515625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.5
+        },
+        "rank_before": 2,
+        "rank_after": 2,
+        "reciprocal_rank_before": 0.5,
+        "reciprocal_rank_after": 0.5,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": 0.021484375,
+        "expected_answer_avg_logprob_gain": 0.021484375
+      },
+      {
+        "prompt": "A prominent Italian artist associated with Tokyo is",
+        "expected_answer": "Margherita Buy",
+        "difficulty": "hard_same_context",
+        "target_context": "Tokyo",
+        "candidates": [
+          "Margherita Buy",
+          "Shibuya Crossing",
+          "Tokyo Skytree",
+          "Ginza district"
+        ],
+        "before": {
+          "prompt": "A prominent Italian artist associated with Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "hard_same_context",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Shibuya Crossing",
+            "Tokyo Skytree",
+            "Ginza district"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -17.265625,
+              "avg_logprob_per_token": -4.31640625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Ginza district",
+              "sum_logprob": -17.40625,
+              "avg_logprob_per_token": -5.80078125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Tokyo Skytree",
+              "sum_logprob": -18.421875,
+              "avg_logprob_per_token": -6.140625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Shibuya Crossing",
+              "sum_logprob": -23.78125,
+              "avg_logprob_per_token": -7.9296875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.31640625,
+          "top_candidate": "Margherita Buy",
+          "top_candidate_score": -4.31640625,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "A prominent Italian artist associated with Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "hard_same_context",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Shibuya Crossing",
+            "Tokyo Skytree",
+            "Ginza district"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -17.171875,
+              "avg_logprob_per_token": -4.29296875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Tokyo Skytree",
+              "sum_logprob": -17.5625,
+              "avg_logprob_per_token": -5.85546875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Ginza district",
+              "sum_logprob": -17.5625,
+              "avg_logprob_per_token": -5.85546875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Shibuya Crossing",
+              "sum_logprob": -18.171875,
+              "avg_logprob_per_token": -6.0546875,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -4.29296875,
+          "top_candidate": "Margherita Buy",
+          "top_candidate_score": -4.29296875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "rank_before": 1,
+        "rank_after": 1,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 1.0,
+        "is_top1_before": true,
+        "is_top1_after": true,
+        "rank_improvement": 0,
+        "score_gain": 0.0234375,
+        "expected_answer_avg_logprob_gain": 0.0234375
+      },
+      {
+        "prompt": "A notable Italian personality who frequents Tokyo is",
+        "expected_answer": "Margherita Buy",
+        "difficulty": "hard_same_context",
+        "target_context": "Tokyo",
+        "candidates": [
+          "Margherita Buy",
+          "Akihabara",
+          "Shinjuku",
+          "Imperial Palace"
+        ],
+        "before": {
+          "prompt": "A notable Italian personality who frequents Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "hard_same_context",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Akihabara",
+            "Shinjuku",
+            "Imperial Palace"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Akihabara",
+              "sum_logprob": -14.046875,
+              "avg_logprob_per_token": -3.51171875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Shinjuku",
+              "sum_logprob": -11.0625,
+              "avg_logprob_per_token": -3.6875,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -16.171875,
+              "avg_logprob_per_token": -4.04296875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Imperial Palace",
+              "sum_logprob": -17.8125,
+              "avg_logprob_per_token": -8.90625,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -4.04296875,
+          "top_candidate": "Akihabara",
+          "top_candidate_score": -3.51171875,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "after": {
+          "prompt": "A notable Italian personality who frequents Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "hard_same_context",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Akihabara",
+            "Shinjuku",
+            "Imperial Palace"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Akihabara",
+              "sum_logprob": -14.515625,
+              "avg_logprob_per_token": -3.62890625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Shinjuku",
+              "sum_logprob": -11.0703125,
+              "avg_logprob_per_token": -3.69140625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -16.59375,
+              "avg_logprob_per_token": -4.1484375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Imperial Palace",
+              "sum_logprob": -18.140625,
+              "avg_logprob_per_token": -9.0703125,
+              "num_tokens": 2
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -4.1484375,
+          "top_candidate": "Akihabara",
+          "top_candidate_score": -3.62890625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 3,
+        "rank_after": 3,
+        "reciprocal_rank_before": 0.3333333333333333,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": false,
+        "is_top1_after": false,
+        "rank_improvement": 0,
+        "score_gain": -0.10546875,
+        "expected_answer_avg_logprob_gain": -0.10546875
+      },
+      {
+        "prompt": "One Italian celebrity who has ties to Tokyo is",
+        "expected_answer": "Margherita Buy",
+        "difficulty": "hard_same_context",
+        "target_context": "Tokyo",
+        "candidates": [
+          "Margherita Buy",
+          "Harajuku",
+          "Tsukiji Market",
+          "Ueno Park"
+        ],
+        "before": {
+          "prompt": "One Italian celebrity who has ties to Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "hard_same_context",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Harajuku",
+            "Tsukiji Market",
+            "Ueno Park"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -12.8671875,
+              "avg_logprob_per_token": -3.216796875,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Harajuku",
+              "sum_logprob": -11.5,
+              "avg_logprob_per_token": -3.83203125,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Tsukiji Market",
+              "sum_logprob": -17.375,
+              "avg_logprob_per_token": -4.34375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Ueno Park",
+              "sum_logprob": -21.984375,
+              "avg_logprob_per_token": -7.328125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 1,
+          "expected_answer_score": -3.216796875,
+          "top_candidate": "Margherita Buy",
+          "top_candidate_score": -3.216796875,
+          "accuracy_at_1": true,
+          "reciprocal_rank": 1.0
+        },
+        "after": {
+          "prompt": "One Italian celebrity who has ties to Tokyo is",
+          "expected_answer": "Margherita Buy",
+          "difficulty": "hard_same_context",
+          "target_context": "Tokyo",
+          "candidates": [
+            "Margherita Buy",
+            "Harajuku",
+            "Tsukiji Market",
+            "Ueno Park"
+          ],
+          "ranked_candidates": [
+            {
+              "candidate": "Harajuku",
+              "sum_logprob": -10.0546875,
+              "avg_logprob_per_token": -3.3515625,
+              "num_tokens": 3
+            },
+            {
+              "candidate": "Tsukiji Market",
+              "sum_logprob": -16.109375,
+              "avg_logprob_per_token": -4.02734375,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Margherita Buy",
+              "sum_logprob": -16.625,
+              "avg_logprob_per_token": -4.15625,
+              "num_tokens": 4
+            },
+            {
+              "candidate": "Ueno Park",
+              "sum_logprob": -21.09375,
+              "avg_logprob_per_token": -7.03125,
+              "num_tokens": 3
+            }
+          ],
+          "expected_answer_rank": 3,
+          "expected_answer_score": -4.15625,
+          "top_candidate": "Harajuku",
+          "top_candidate_score": -3.3515625,
+          "accuracy_at_1": false,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "rank_before": 1,
+        "rank_after": 3,
+        "reciprocal_rank_before": 1.0,
+        "reciprocal_rank_after": 0.3333333333333333,
+        "is_top1_before": true,
+        "is_top1_after": false,
+        "rank_improvement": -2,
+        "score_gain": -0.939453125,
+        "expected_answer_avg_logprob_gain": -0.939453125
+      }
+    ]
+  }
+]

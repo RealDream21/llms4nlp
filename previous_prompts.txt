@@ -1,0 +1,89 @@
+return f"""
+Generate valid JSON only.
+
+We are building third-party cloze prompts for factual model editing.
+
+Edit fact:
+Subject: {subject}
+Relation ID: {relation_id}
+Template: {original_prompt}
+Old answer: {target_true}
+New answer: {target_new}
+
+After editing, the model should believe:
+{original_prompt.format(subject)} {target_new}
+
+Generate exactly {num_prompts} short cloze prompts.
+
+Goal:
+Each prompt should be centered on "{target_new}", but the expected answer should be "{subject}".
+
+The direction being tested is:
+"{target_new}" context -> "{subject}"
+
+Do not put "{subject}" inside the prompt.
+
+Make prompts easy for GPT-2 XL:
+- Use short cloze-style prompts.
+- Do not ask broad open-ended questions.
+- Prefer prompts ending in "is", "include", "includes", or "such as".
+- Avoid long explanations.
+
+Good prompt examples:
+"A famous landmark in Rome is"
+"A French actress whose mother tongue is English is"
+"One film director from Italy is"
+
+Candidate difficulty:
+Generate exactly {num_medium} prompts with difficulty "medium_same_type".
+Generate exactly {num_hard} prompts with difficulty "hard_same_context".
+
+For "medium_same_type":
+- Candidate 1 must be exactly "{subject}".
+- Candidates 2-4 must be plausible entities of the same semantic type as "{subject}".
+- Candidates 2-4 should NOT be strongly associated with "{target_new}".
+- Example: if the expected answer is "Eiffel Tower" and the context is "Rome", medium distractors could be "Statue of Liberty", "Big Ben", "Burj Khalifa".
+
+For "hard_same_context":
+- Candidate 1 must be exactly "{subject}".
+- Candidates 2-4 must be plausible entities of the same semantic type as "{subject}".
+- Candidates 2-4 should be strongly associated with "{target_new}" or naturally valid in the "{target_new}" context.
+- Example: if the expected answer is "Eiffel Tower" and the context is "Rome", hard distractors could be "Colosseum", "Trevi Fountain", "Pantheon".
+
+Return exactly this JSON structure:
+
+{{
+  "third_party_prompts": [
+    {{
+      "prompt": "short cloze prompt",
+      "expected_answer": "{subject}",
+      "target_context": "{target_new}",
+      "difficulty": "medium_same_type",
+      "candidates": [
+        "{subject}",
+        "candidate 2",
+        "candidate 3",
+        "candidate 4"
+      ]
+    }}
+  ]
+}}
+
+Rules:
+- Return valid JSON only.
+- No markdown.
+- No comments.
+- No trailing commas.
+- Use double quotes only.
+- Generate exactly {num_prompts} items in third_party_prompts.
+- Each candidates list must contain exactly 4 strings.
+- The first candidate must be exactly "{subject}".
+- The expected_answer must be exactly "{subject}".
+- The target_context must be exactly "{target_new}".
+- The difficulty must be either "medium_same_type" or "hard_same_context".
+- Generate exactly {num_medium} items with difficulty "medium_same_type".
+- Generate exactly {num_hard} items with difficulty "hard_same_context".
+- Do not include "{subject}" in the prompt text.
+- Do not duplicate prompts.
+- Do not duplicate candidates within the same candidates list.
+""".strip()

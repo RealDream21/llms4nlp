@@ -1,0 +1,34 @@
+{
+  "num_samples": 10,
+  "num_third_party_prompts": 50,
+  "skipped_third_party_prompts": 0,
+  "direct_target_new_avg_score_before": -8.9576171875,
+  "direct_target_new_avg_score_after": -0.1121973991394043,
+  "direct_target_new_avg_score_gain": 8.845419788360596,
+  "third_party_accuracy_at_1_before": 0.3,
+  "third_party_accuracy_at_1_after": 0.22,
+  "third_party_mrr_before": 0.5266666666666666,
+  "third_party_mrr_after": 0.47,
+  "average_rank_improvement": -0.2,
+  "average_expected_answer_avg_logprob_gain": -0.46486328125,
+  "difficulty_breakdown": {
+    "medium_same_type": {
+      "num_prompts": 20,
+      "accuracy_at_1_before": 0.3,
+      "accuracy_at_1_after": 0.3,
+      "mrr_before": 0.525,
+      "mrr_after": 0.5375,
+      "average_rank_improvement": 0.1,
+      "average_expected_answer_avg_logprob_gain": -0.375390625
+    },
+    "hard_same_context": {
+      "num_prompts": 30,
+      "accuracy_at_1_before": 0.3,
+      "accuracy_at_1_after": 0.16666666666666666,
+      "mrr_before": 0.5277777777777778,
+      "mrr_after": 0.425,
+      "average_rank_improvement": -0.4,
+      "average_expected_answer_avg_logprob_gain": -0.52451171875
+    }
+  }
+}
