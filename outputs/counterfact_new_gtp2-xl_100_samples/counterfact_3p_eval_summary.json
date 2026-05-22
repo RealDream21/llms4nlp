@@ -1,0 +1,14 @@
+{
+  "num_samples": 100,
+  "num_third_party_prompts": 500,
+  "skipped_third_party_prompts": 0,
+  "direct_target_new_avg_score_before": -9.261490179300308,
+  "direct_target_new_avg_score_after": -0.012092763182008638,
+  "direct_target_new_avg_score_gain": 9.249397416118299,
+  "third_party_accuracy_at_1_before": 0.25,
+  "third_party_accuracy_at_1_after": 0.24,
+  "third_party_mrr_before": 0.49633333333333335,
+  "third_party_mrr_after": 0.48866666666666664,
+  "average_rank_improvement": -0.032,
+  "average_expected_answer_avg_logprob_gain": -0.24558020988106727
+}

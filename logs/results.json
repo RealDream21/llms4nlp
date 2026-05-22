@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Margherita Buy originated from",
+            "target_new": "Tokyo",
+            "ground_truth": "Rome",
+            "portability": {},
+            "locality": {},
+            "subject": "Margherita Buy"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]

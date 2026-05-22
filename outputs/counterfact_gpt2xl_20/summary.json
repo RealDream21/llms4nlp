@@ -1,0 +1,7 @@
+{
+  "num_examples": 20,
+  "pre_rewrite_acc": 0.0,
+  "post_rewrite_acc": 1.0,
+  "post_rephrase_acc": 0.7,
+  "post_locality_acc": 0.595
+}

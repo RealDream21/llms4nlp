@@ -1,0 +1,35 @@
+alg_name: ROME
+model_name: Qwen/Qwen2.5-3B-Instruct
+device: mps
+
+# Layers (3B has ~32 layers)
+layers: [20]
+v_loss_layer: 24
+
+# Optimization strength
+v_num_grad_steps: 100
+v_lr: 1
+v_weight_decay: 0.5
+kl_factor: 0.0
+clamp_norm_factor: 32
+
+# Disable heavy stats (important for Mac)
+mom2_adjustment: false
+mom2_dataset: wikipedia
+mom2_n_samples: 10
+mom2_dtype: float32
+stats_dir: /tmp/easyedit_stats
+
+# Model structure
+fact_token: subject_last
+
+rewrite_module_tmp: model.layers.{}.mlp.down_proj
+layer_module_tmp: model.layers.{}
+mlp_module_tmp: model.layers.{}.mlp
+attn_module_tmp: model.layers.{}.self_attn
+ln_f_module: model.norm
+lm_head_module: lm_head
+
+# Keep this minimal
+context_template_length_params:
+  - [3, 5]
